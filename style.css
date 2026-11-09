@@ -331,7 +331,6 @@ h2::before {
   color: var(--accent-dark);
 }
 
-/* Indicadores com faixas coloridas como slides de KPI */
 .kpi {
   position: relative;
   min-height: 146px;
@@ -392,7 +391,6 @@ h2::before {
 .amber { color: var(--amber); }
 .green { color: var(--green); }
 
-/* Tabelas: contraste claro e ênfase na legibilidade dos números */
 table {
   width: 100%;
   border-collapse: separate;
