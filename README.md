@@ -1,6 +1,14 @@
 # analise-fazenda
 Trabalho de faculdade para analsze de dados de uma fazenda
 
+# Executando o script
+
+Para executar o script, primeiro instale Python e execute na pasta do projeto o seguinte comando:
+
+`python main.py`
+
+NOTA: Troque o `python` pela localização do executável caso tenha instalado com um nome diferente.
+
 Abaixo segue o trabalho que precisou ser realizado.
 
 # Squad 5 — A carga que não podia misturar
