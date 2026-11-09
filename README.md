@@ -5,11 +5,6 @@ Abaixo segue o trabalho que precisou ser realizado.
 
 # Squad 5 — A carga que não podia misturar
 
-> Leia o `LEIA-ME.md` antes deste arquivo: o ciclo, os quatro entregáveis,
-> os três níveis e a forma de verificação valem para as seis squads.
-
----
-
 ## A dor
 
 Leite de vaca, de búfala e de cabra são produtos diferentes, com preço, destino
