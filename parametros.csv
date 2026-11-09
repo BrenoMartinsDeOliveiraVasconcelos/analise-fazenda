@@ -1,0 +1,8 @@
+parametro;valor;unidade
+preco_base_litro;2.45;R$/L
+premio_organico_litro;0.35;R$/L
+custo_treinamento;850.0;R$/fazenda
+periodo_inicio;2026-03-01;data
+periodo_fim;2026-06-30;data
+mes_referencia_simulacao;6;mes
+dias_no_mes_referencia;30;dias

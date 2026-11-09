@@ -1,0 +1,5 @@
+atributo;valor_a;valor_b;consequencia;descricao
+especie;vaca;bufala;descarte_total;Especies diferentes desclassificam a carga inteira
+especie;vaca;cabra;descarte_total;Especies diferentes desclassificam a carga inteira
+especie;bufala;cabra;descarte_total;Especies diferentes desclassificam a carga inteira
+certificacao;organico;convencional;perda_premio;O leite organico perde a certificacao e e pago como convencional

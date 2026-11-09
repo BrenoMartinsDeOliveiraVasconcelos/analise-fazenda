@@ -1,0 +1,963 @@
+fazenda_id;produtor_id;nome_fazenda;especie;certificacao;tanque_id;latitude;longitude;volume_medio_dia_litros;area_hectares;n_vacas_lactacao;tipo_ordenha
+F0001;P0050;Sitio Aurora II;vaca;convencional;TC004;-19.691011;-44.877965;595;47.2;43;balde ao pe
+F0002;P0357;Fazenda Sao Jose II;vaca;convencional;TC004;-20.224433;-44.465629;467;61.5;39;sala de ordenha
+F0003;P0446;Fazenda Santa Rita II;vaca;convencional;TC004;-19.727362;-44.421837;562;44.3;34;balde ao pe
+F0004;P0221;Sitio Tres Irmaos III;vaca;convencional;TC004;-20.26923;-43.534944;157;16.0;12;canalizada
+F0005;P0555;Sitio Tres Irmaos II;vaca;convencional;TC004;-20.359691;-44.744395;667;64.9;36;balde ao pe
+F0006;P0109;Sitio Recanto II;vaca;convencional;TC055;-19.756519;-43.556732;489;55.4;32;balde ao pe
+F0007;P0665;Fazenda Esperanca III;vaca;convencional;TC055;-20.267332;-44.608169;864;66.7;68;canalizada
+F0008;P0572;Sitio Aurora I;vaca;convencional;TC055;-19.668401;-43.8548;341;28.4;28;sala de ordenha
+F0009;P0663;Fazenda Sao Jose III;vaca;convencional;TC055;-19.654881;-43.995214;168;43.2;11;canalizada
+F0010;P0038;Fazenda Santa Rita III;vaca;convencional;TC055;-19.840708;-44.660981;79;16.1;6;canalizada
+F0011;P0341;Fazenda Esperanca III;vaca;convencional;TC055;-20.220113;-43.837485;136;40.0;9;canalizada
+F0012;P0218;Fazenda Esperanca III;vaca;convencional;TC055;-19.282291;-43.505991;809;63.4;45;canalizada
+F0013;P0418;Fazenda Esperanca II;vaca;convencional;TC055;-19.898467;-44.298208;496;48.5;38;sala de ordenha
+F0014;P0654;Sitio Tres Irmaos I;vaca;convencional;TC055;-19.736745;-43.538987;236;26.9;15;balde ao pe
+F0015;P0001;Sitio do Vale III;vaca;convencional;TC055;-20.591349;-43.526856;286;33.0;18;balde ao pe
+F0016;P0673;Sitio Agua Limpa I;vaca;convencional;TC055;-19.582497;-44.143561;813;76.5;54;sala de ordenha
+F0017;P0636;Fazenda Esperanca II;vaca;convencional;TC055;-19.449964;-44.700015;580;54.1;51;canalizada
+F0018;P0522;Fazenda Palmeiras III;vaca;convencional;TC021;-19.715725;-44.630071;300;46.6;22;sala de ordenha
+F0019;P0329;Sitio Recanto II;vaca;convencional;TC021;-19.65939;-44.170134;179;18.4;13;sala de ordenha
+F0020;P0370;Fazenda Esperanca III;vaca;convencional;TC021;-19.334851;-44.757633;889;68.9;58;canalizada
+F0021;P0787;Fazenda Esperanca II;vaca;convencional;TC021;-20.000483;-44.270235;788;59.9;62;sala de ordenha
+F0022;P0309;Fazenda Esperanca III;vaca;convencional;TC021;-20.587575;-43.527011;432;63.7;39;sala de ordenha
+F0023;P0147;Fazenda Santa Rita I;vaca;convencional;TC021;-20.336491;-43.950182;738;71.4;61;balde ao pe
+F0024;P0181;Fazenda Monte Alto II;vaca;convencional;TC021;-19.921306;-44.384109;577;53.1;46;canalizada
+F0025;P0671;Fazenda Bela Vista II;vaca;convencional;TC021;-20.155218;-43.801258;259;29.3;21;canalizada
+F0026;P0205;Fazenda Monte Alto II;vaca;convencional;TC021;-19.380492;-44.735006;810;44.9;50;sala de ordenha
+F0027;P0164;Fazenda Palmeiras III;vaca;convencional;TC021;-20.569231;-44.392608;85;24.0;6;sala de ordenha
+F0028;P0129;Fazenda Sao Jose III;vaca;convencional;TC050;-20.287837;-43.916729;142;44.8;11;canalizada
+F0029;P0677;Sitio Aurora II;vaca;convencional;TC050;-19.435619;-44.292336;843;78.5;52;sala de ordenha
+F0030;P0216;Sitio Aurora III;vaca;convencional;TC050;-20.469781;-44.271698;768;61.1;52;sala de ordenha
+F0031;P0217;Sitio Aurora III;vaca;convencional;TC050;-19.545651;-44.147244;194;18.6;10;canalizada
+F0032;P0576;Fazenda Esperanca III;vaca;convencional;TC050;-19.673883;-44.221429;391;55.1;24;balde ao pe
+F0033;P0631;Fazenda Santa Rita I;vaca;convencional;TC050;-19.799243;-43.941473;758;75.9;48;sala de ordenha
+F0034;P0643;Fazenda Palmeiras I;vaca;convencional;TC050;-19.435313;-44.467344;441;41.5;23;balde ao pe
+F0035;P0002;Sitio Agua Limpa III;vaca;convencional;TC050;-20.161857;-43.827035;447;42.0;40;sala de ordenha
+F0036;P0315;Fazenda Esperanca I;vaca;convencional;TC050;-19.915506;-43.760411;172;30.0;11;balde ao pe
+F0037;P0486;Fazenda Sao Jose III;vaca;convencional;TC050;-19.803822;-44.493827;434;34.3;33;balde ao pe
+F0038;P0097;Fazenda Santa Rita III;vaca;convencional;TC024;-19.614582;-44.609917;186;35.2;9;sala de ordenha
+F0039;P0470;Fazenda Palmeiras II;vaca;convencional;TC024;-20.554198;-44.676073;861;70.6;77;balde ao pe
+F0040;P0627;Sitio Boa Vista III;vaca;convencional;TC024;-20.257648;-43.697406;337;51.1;29;canalizada
+F0041;P0778;Fazenda Esperanca III;vaca;convencional;TC024;-20.094536;-43.955992;574;61.7;42;canalizada
+F0042;P0119;Sitio Recanto II;vaca;convencional;TC024;-20.018394;-43.773652;615;46.1;36;canalizada
+F0043;P0721;Sitio do Vale I;vaca;convencional;TC049;-20.118385;-43.624901;526;72.7;46;canalizada
+F0044;P0708;Fazenda Esperanca II;vaca;convencional;TC049;-19.724152;-43.592764;355;50.2;23;sala de ordenha
+F0045;P0682;Sitio Tres Irmaos II;vaca;convencional;TC049;-20.330933;-43.536437;648;66.3;53;balde ao pe
+F0046;P0254;Sitio Agua Limpa III;vaca;convencional;TC049;-20.06162;-44.897035;90;43.9;6;balde ao pe
+F0047;P0647;Sitio Tres Irmaos II;vaca;convencional;TC049;-20.105814;-44.405779;472;45.5;27;canalizada
+F0048;P0394;Sitio Tres Irmaos III;vaca;convencional;TC049;-20.487547;-44.632875;783;79.4;54;canalizada
+F0049;P0467;Fazenda Sao Jose III;vaca;convencional;TC049;-20.215151;-44.114022;470;61.6;32;canalizada
+F0050;P0027;Sitio Tres Irmaos II;vaca;convencional;TC011;-19.679821;-44.848975;233;50.0;14;canalizada
+F0051;P0578;Fazenda Monte Alto II;vaca;convencional;TC011;-19.500801;-44.793137;639;51.0;38;sala de ordenha
+F0052;P0710;Fazenda Palmeiras I;vaca;convencional;TC011;-19.977782;-43.860333;786;80.9;45;balde ao pe
+F0053;P0371;Sitio Recanto I;vaca;convencional;TC011;-19.794441;-43.829727;886;63.7;65;balde ao pe
+F0054;P0502;Sitio Agua Limpa III;vaca;convencional;TC011;-19.612428;-43.993552;311;54.5;18;balde ao pe
+F0055;P0122;Fazenda Monte Alto I;vaca;convencional;TC011;-19.255411;-44.295219;413;49.5;31;canalizada
+F0056;P0703;Fazenda Palmeiras II;vaca;convencional;TC011;-19.544181;-44.144503;397;29.4;31;sala de ordenha
+F0057;P0327;Sitio do Vale III;vaca;convencional;TC033;-19.554001;-44.836336;737;75.4;40;balde ao pe
+F0058;P0248;Sitio Recanto II;vaca;convencional;TC033;-19.248177;-43.613207;476;46.2;25;balde ao pe
+F0059;P0092;Fazenda Bela Vista II;vaca;convencional;TC033;-19.645834;-43.958799;85;38.8;6;canalizada
+F0060;P0550;Fazenda Santa Rita I;vaca;convencional;TC033;-19.958775;-44.876318;194;38.4;13;balde ao pe
+F0061;P0007;Sitio Agua Limpa II;vaca;convencional;TC033;-19.455365;-44.573655;148;44.0;9;canalizada
+F0062;P0273;Fazenda Palmeiras II;vaca;convencional;TC033;-19.916311;-43.944173;62;18.0;6;balde ao pe
+F0063;P0052;Sitio Boa Vista III;vaca;convencional;TC033;-20.095233;-43.679747;657;49.1;41;sala de ordenha
+F0064;P0062;Fazenda Sao Jose III;vaca;convencional;TC033;-20.340133;-43.535401;633;78.5;50;canalizada
+F0065;P0303;Fazenda Bela Vista I;vaca;convencional;TC033;-19.982542;-44.831984;733;76.6;55;canalizada
+F0066;P0446;Fazenda Bela Vista I;vaca;convencional;TC033;-20.009361;-44.137422;593;49.4;47;canalizada
+F0067;P0062;Fazenda Monte Alto II;vaca;convencional;TC033;-19.544713;-43.990388;539;63.8;33;balde ao pe
+F0068;P0548;Fazenda Bela Vista III;vaca;convencional;TC032;-20.383532;-44.805638;162;19.8;13;sala de ordenha
+F0069;P0018;Fazenda Palmeiras II;vaca;convencional;TC032;-19.828816;-43.59941;76;22.5;6;canalizada
+F0070;P0586;Sitio do Vale III;vaca;convencional;TC032;-19.217158;-44.095874;445;43.6;26;canalizada
+F0071;P0345;Sitio Boa Vista II;vaca;convencional;TC032;-19.77529;-44.750399;524;63.6;31;balde ao pe
+F0072;P0773;Sitio Agua Limpa III;vaca;convencional;TC032;-19.612607;-44.075535;325;45.9;22;sala de ordenha
+F0073;P0363;Fazenda Palmeiras I;vaca;convencional;TC032;-19.594051;-44.324972;396;41.6;32;canalizada
+F0074;P0148;Fazenda Bela Vista III;vaca;convencional;TC032;-19.579799;-44.861973;879;52.1;52;sala de ordenha
+F0075;P0185;Sitio Recanto II;vaca;convencional;TC032;-19.250151;-44.339837;680;68.6;55;sala de ordenha
+F0076;P0170;Sitio Tres Irmaos II;vaca;convencional;TC009;-20.283997;-44.289725;343;37.2;21;sala de ordenha
+F0077;P0293;Sitio Recanto II;vaca;convencional;TC009;-20.373923;-43.710363;92;21.0;6;canalizada
+F0078;P0582;Sitio Tres Irmaos II;vaca;convencional;TC009;-19.790622;-43.590212;855;66.1;57;balde ao pe
+F0079;P0676;Sitio Agua Limpa III;vaca;convencional;TC009;-19.261387;-44.171603;116;42.8;8;balde ao pe
+F0080;P0365;Sitio Recanto II;vaca;convencional;TC009;-20.171529;-44.061043;342;53.6;18;balde ao pe
+F0081;P0261;Fazenda Palmeiras II;vaca;convencional;TC009;-19.431084;-44.757605;384;43.5;25;sala de ordenha
+F0082;P0096;Fazenda Monte Alto I;vaca;convencional;TC009;-19.65844;-44.321315;828;74.9;44;balde ao pe
+F0083;P0366;Sitio Tres Irmaos I;vaca;convencional;TC009;-19.775065;-44.097444;856;65.1;64;sala de ordenha
+F0084;P0795;Sitio Recanto I;vaca;convencional;TC009;-19.953307;-43.634662;688;69.9;44;balde ao pe
+F0085;P0669;Fazenda Bela Vista II;vaca;convencional;TC009;-20.306192;-44.217353;110;30.6;6;sala de ordenha
+F0086;P0290;Fazenda Palmeiras II;vaca;convencional;TC009;-20.035333;-44.441268;897;71.9;72;canalizada
+F0087;P0793;Fazenda Esperanca II;vaca;convencional;TC019;-20.077409;-44.431422;898;65.9;50;balde ao pe
+F0088;P0012;Sitio Tres Irmaos II;vaca;convencional;TC019;-19.452201;-43.525711;154;48.1;10;balde ao pe
+F0089;P0263;Sitio do Vale I;vaca;convencional;TC019;-19.740397;-44.370978;699;66.7;45;balde ao pe
+F0090;P0533;Sitio Boa Vista II;vaca;convencional;TC019;-19.543006;-43.6805;255;33.8;15;sala de ordenha
+F0091;P0277;Sitio Tres Irmaos I;vaca;convencional;TC019;-19.739265;-43.768043;881;64.6;47;sala de ordenha
+F0092;P0001;Fazenda Santa Rita III;vaca;convencional;TC019;-20.195294;-44.846934;654;54.9;38;balde ao pe
+F0093;P0543;Fazenda Palmeiras III;vaca;convencional;TC019;-20.013173;-43.859776;825;93.8;53;sala de ordenha
+F0094;P0503;Fazenda Bela Vista I;vaca;convencional;TC019;-19.300621;-44.868133;462;41.9;28;balde ao pe
+F0095;P0713;Fazenda Santa Rita III;vaca;convencional;TC019;-20.373155;-44.595565;613;69.8;33;canalizada
+F0096;P0770;Sitio do Vale II;vaca;convencional;TC019;-20.56732;-44.668751;137;31.7;11;balde ao pe
+F0097;P0745;Sitio do Vale III;vaca;convencional;TC010;-19.448181;-43.965326;850;66.5;65;balde ao pe
+F0098;P0179;Fazenda Santa Rita II;vaca;convencional;TC010;-20.33384;-43.658832;229;31.0;18;canalizada
+F0099;P0041;Fazenda Santa Rita I;vaca;convencional;TC010;-20.556502;-44.728168;700;69.8;42;balde ao pe
+F0100;P0321;Fazenda Bela Vista III;vaca;convencional;TC010;-19.401908;-44.113993;398;58.3;27;sala de ordenha
+F0101;P0722;Fazenda Palmeiras III;vaca;convencional;TC010;-20.487119;-44.709767;722;79.0;55;balde ao pe
+F0102;P0671;Sitio Boa Vista II;vaca;convencional;TC010;-20.154981;-44.342374;162;46.1;9;canalizada
+F0103;P0267;Sitio Recanto I;vaca;convencional;TC010;-19.802123;-44.790371;71;28.7;6;canalizada
+F0104;P0289;Fazenda Monte Alto II;vaca;convencional;TC010;-20.475217;-43.852216;303;51.6;22;canalizada
+F0105;P0792;Fazenda Palmeiras II;vaca;convencional;TC010;-20.170179;-43.984801;559;51.2;31;canalizada
+F0106;P0087;Sitio Tres Irmaos III;vaca;convencional;TC010;-20.529527;-43.602272;307;28.9;22;balde ao pe
+F0107;P0131;Fazenda Monte Alto III;vaca;convencional;TC010;-19.906819;-44.76975;263;50.6;19;balde ao pe
+F0108;P0161;Fazenda Bela Vista I;vaca;convencional;TC010;-20.522532;-44.018845;267;33.9;15;balde ao pe
+F0109;P0276;Sitio Aurora I;vaca;convencional;TC046;-19.930728;-43.730948;354;33.7;21;sala de ordenha
+F0110;P0608;Fazenda Monte Alto III;vaca;convencional;TC046;-19.507348;-43.879329;447;59.5;23;canalizada
+F0111;P0648;Sitio Aurora I;vaca;convencional;TC046;-20.179384;-43.958979;735;62.4;46;canalizada
+F0112;P0324;Fazenda Esperanca I;vaca;convencional;TC046;-19.877003;-43.555757;282;48.4;17;sala de ordenha
+F0113;P0659;Fazenda Bela Vista I;vaca;convencional;TC046;-20.425002;-44.001291;890;70.8;61;balde ao pe
+F0114;P0674;Fazenda Monte Alto III;vaca;convencional;TC046;-20.132901;-44.148955;693;83.7;39;canalizada
+F0115;P0654;Fazenda Monte Alto I;vaca;convencional;TC046;-20.271436;-44.781898;543;62.0;30;canalizada
+F0116;P0688;Sitio Agua Limpa III;vaca;convencional;TC046;-19.312613;-43.51633;687;59.7;38;sala de ordenha
+F0117;P0226;Fazenda Esperanca I;vaca;convencional;TC046;-19.76077;-44.078749;130;37.4;7;balde ao pe
+F0118;P0746;Sitio do Vale II;vaca;convencional;TC046;-19.555965;-44.698882;533;58.9;34;canalizada
+F0119;P0629;Sitio Agua Limpa I;vaca;convencional;TC054;-19.670977;-43.703495;543;50.3;40;canalizada
+F0120;P0118;Sitio Agua Limpa II;vaca;convencional;TC054;-19.293095;-44.390494;874;70.2;60;balde ao pe
+F0121;P0575;Fazenda Monte Alto III;vaca;convencional;TC054;-19.894144;-44.697294;654;55.3;49;balde ao pe
+F0122;P0561;Sitio Recanto I;vaca;convencional;TC054;-20.419659;-44.83104;665;46.0;37;canalizada
+F0123;P0323;Fazenda Sao Jose I;vaca;convencional;TC054;-19.324267;-44.275134;380;47.6;24;balde ao pe
+F0124;P0523;Sitio Recanto II;vaca;convencional;TC054;-19.36823;-44.203039;605;58.5;43;canalizada
+F0125;P0256;Fazenda Palmeiras II;vaca;convencional;TC054;-19.923775;-43.795533;823;67.5;54;balde ao pe
+F0126;P0115;Fazenda Santa Rita III;vaca;convencional;TC054;-19.536141;-43.89289;617;56.7;42;balde ao pe
+F0127;P0540;Sitio Recanto I;vaca;convencional;TC054;-19.981831;-44.246314;831;72.3;51;sala de ordenha
+F0128;P0395;Fazenda Palmeiras II;vaca;convencional;TC054;-19.440354;-43.9874;486;54.5;41;sala de ordenha
+F0129;P0639;Fazenda Sao Jose I;vaca;convencional;TC054;-20.518523;-44.735159;428;42.5;23;canalizada
+F0130;P0079;Fazenda Bela Vista III;vaca;convencional;TC054;-19.555765;-44.895965;806;72.0;66;canalizada
+F0131;P0425;Fazenda Bela Vista I;bufala;convencional;TC013;-20.523814;-44.063052;264;33.1;15;sala de ordenha
+F0132;P0230;Fazenda Esperanca II;bufala;convencional;TC013;-19.442355;-43.58154;383;56.4;20;canalizada
+F0133;P0739;Sitio Recanto I;bufala;convencional;TC013;-20.065129;-44.093234;776;60.9;42;sala de ordenha
+F0134;P0788;Fazenda Santa Rita II;bufala;convencional;TC013;-20.43045;-44.654724;247;20.9;15;sala de ordenha
+F0135;P0743;Sitio Boa Vista I;bufala;convencional;TC013;-19.3073;-44.061648;348;42.4;20;balde ao pe
+F0136;P0067;Fazenda Palmeiras I;bufala;convencional;TC013;-19.247347;-43.705284;312;32.3;23;canalizada
+F0137;P0294;Sitio do Vale I;bufala;convencional;TC013;-20.285344;-43.81629;426;33.0;35;balde ao pe
+F0138;P0594;Fazenda Bela Vista III;bufala;convencional;TC013;-20.197704;-44.544628;94;14.2;6;canalizada
+F0139;P0311;Fazenda Monte Alto II;vaca;convencional;TC001;-19.200255;-44.419493;560;42.8;31;balde ao pe
+F0140;P0516;Sitio do Vale II;vaca;convencional;TC001;-19.598373;-44.294107;524;57.0;32;sala de ordenha
+F0141;P0389;Fazenda Palmeiras III;vaca;convencional;TC001;-20.493519;-44.745661;846;74.3;46;canalizada
+F0142;P0712;Fazenda Sao Jose I;vaca;convencional;TC001;-20.369068;-44.885316;590;71.9;43;canalizada
+F0143;P0230;Sitio do Vale I;vaca;convencional;TC001;-19.25504;-44.421127;678;48.4;42;sala de ordenha
+F0144;P0415;Fazenda Sao Jose I;vaca;convencional;TC001;-19.762478;-43.530682;707;52.4;51;sala de ordenha
+F0145;P0598;Sitio Agua Limpa II;vaca;convencional;TC001;-19.971061;-44.861582;580;62.5;34;sala de ordenha
+F0146;P0368;Fazenda Esperanca I;vaca;convencional;TC001;-19.922157;-44.885028;677;49.7;42;balde ao pe
+F0147;P0397;Fazenda Bela Vista II;vaca;convencional;TC026;-20.104763;-43.982898;136;28.4;7;sala de ordenha
+F0148;P0223;Sitio Boa Vista I;vaca;convencional;TC026;-19.569748;-44.355669;617;41.5;43;canalizada
+F0149;P0198;Sitio do Vale III;vaca;convencional;TC026;-20.188822;-44.294968;477;57.8;27;canalizada
+F0150;P0794;Fazenda Santa Rita I;vaca;convencional;TC026;-20.309382;-44.674056;315;51.8;18;balde ao pe
+F0151;P0051;Sitio Recanto I;vaca;convencional;TC026;-19.446823;-43.848659;739;60.0;55;sala de ordenha
+F0152;P0322;Fazenda Esperanca I;vaca;convencional;TC059;-19.310633;-43.540334;386;47.8;29;canalizada
+F0153;P0111;Sitio Boa Vista III;vaca;convencional;TC059;-20.044278;-43.817411;353;41.8;19;canalizada
+F0154;P0305;Fazenda Palmeiras I;vaca;convencional;TC059;-19.952697;-43.681613;237;47.0;14;balde ao pe
+F0155;P0632;Fazenda Bela Vista III;vaca;convencional;TC059;-20.007268;-44.139018;85;34.1;6;canalizada
+F0156;P0153;Fazenda Bela Vista II;vaca;convencional;TC059;-20.010896;-44.684491;811;74.5;69;canalizada
+F0157;P0228;Sitio Aurora II;vaca;convencional;TC059;-19.898637;-44.070642;481;54.5;31;canalizada
+F0158;P0212;Fazenda Sao Jose I;vaca;convencional;TC059;-19.903848;-44.645365;722;61.7;49;sala de ordenha
+F0159;P0736;Sitio Agua Limpa III;vaca;convencional;TC042;-19.731617;-43.843947;125;31.8;6;balde ao pe
+F0160;P0389;Sitio Recanto I;vaca;convencional;TC042;-20.314831;-44.114806;492;49.3;28;sala de ordenha
+F0161;P0585;Sitio do Vale I;vaca;convencional;TC042;-20.152889;-43.888922;812;68.9;61;sala de ordenha
+F0162;P0100;Fazenda Monte Alto III;vaca;convencional;TC042;-20.310164;-44.705003;478;47.0;37;balde ao pe
+F0163;P0565;Sitio do Vale I;vaca;convencional;TC042;-19.434081;-43.996706;331;40.9;23;sala de ordenha
+F0164;P0509;Sitio Aurora I;vaca;convencional;TC042;-20.086328;-44.847161;843;72.9;46;canalizada
+F0165;P0798;Sitio Agua Limpa III;vaca;convencional;TC042;-20.194599;-43.537176;148;46.5;13;sala de ordenha
+F0166;P0411;Fazenda Esperanca II;vaca;convencional;TC042;-20.117103;-44.514521;377;62.6;28;canalizada
+F0167;P0733;Fazenda Santa Rita III;vaca;convencional;TC042;-19.64574;-44.795247;414;35.2;26;canalizada
+F0168;P0466;Fazenda Santa Rita I;vaca;convencional;TC031;-19.246736;-43.69043;651;43.3;48;sala de ordenha
+F0169;P0428;Sitio Recanto II;vaca;convencional;TC031;-20.57849;-44.001905;695;50.7;52;canalizada
+F0170;P0588;Fazenda Monte Alto II;vaca;convencional;TC031;-19.215515;-43.506801;259;47.7;15;canalizada
+F0171;P0146;Sitio Aurora I;vaca;convencional;TC031;-20.157967;-43.743702;493;55.8;30;sala de ordenha
+F0172;P0724;Sitio Aurora I;vaca;convencional;TC031;-20.505562;-43.759444;259;35.2;20;balde ao pe
+F0173;P0541;Fazenda Bela Vista III;vaca;convencional;TC058;-19.34011;-44.361809;870;64.5;46;balde ao pe
+F0174;P0049;Sitio Recanto III;vaca;convencional;TC058;-19.991388;-44.256939;210;29.2;16;sala de ordenha
+F0175;P0696;Sitio Recanto III;vaca;convencional;TC058;-20.184786;-43.736232;718;52.5;55;sala de ordenha
+F0176;P0225;Fazenda Palmeiras III;vaca;convencional;TC058;-19.492549;-44.897405;605;45.3;44;canalizada
+F0177;P0526;Sitio Agua Limpa II;vaca;convencional;TC058;-20.582452;-44.142102;707;70.1;50;balde ao pe
+F0178;P0020;Fazenda Bela Vista III;vaca;convencional;TC058;-19.503216;-43.981545;709;63.1;45;canalizada
+F0179;P0757;Sitio Recanto II;vaca;convencional;TC058;-20.351033;-43.683104;292;28.4;16;balde ao pe
+F0180;P0057;Fazenda Esperanca I;vaca;convencional;TC058;-19.428561;-44.213161;572;53.2;34;canalizada
+F0181;P0491;Fazenda Sao Jose II;vaca;convencional;TC058;-20.430706;-43.805856;240;24.1;14;canalizada
+F0182;P0219;Sitio do Vale II;vaca;convencional;TC058;-19.487082;-44.179713;323;54.1;18;canalizada
+F0183;P0554;Sitio Agua Limpa I;vaca;convencional;TC058;-19.426961;-43.769567;161;21.3;9;balde ao pe
+F0184;P0195;Fazenda Palmeiras I;vaca;convencional;TC058;-19.886215;-44.404222;900;56.4;63;balde ao pe
+F0185;P0199;Sitio do Vale II;vaca;convencional;TC029;-19.589823;-44.621885;375;43.0;23;sala de ordenha
+F0186;P0734;Fazenda Santa Rita II;vaca;convencional;TC029;-19.895041;-43.629901;674;65.0;44;balde ao pe
+F0187;P0054;Sitio Aurora III;vaca;convencional;TC029;-19.553403;-44.656801;885;62.8;76;canalizada
+F0188;P0385;Fazenda Palmeiras II;vaca;convencional;TC029;-20.412866;-43.671632;731;68.4;53;balde ao pe
+F0189;P0719;Fazenda Santa Rita II;vaca;convencional;TC029;-20.194088;-44.392048;814;63.5;65;balde ao pe
+F0190;P0490;Fazenda Sao Jose II;vaca;convencional;TC029;-19.519682;-43.730046;521;57.8;32;sala de ordenha
+F0191;P0764;Fazenda Palmeiras I;vaca;convencional;TC029;-19.472265;-44.01403;470;43.5;28;canalizada
+F0192;P0127;Sitio do Vale II;vaca;convencional;TC029;-19.30787;-43.867133;285;24.1;16;canalizada
+F0193;P0492;Fazenda Santa Rita III;vaca;convencional;TC029;-19.954491;-44.167994;685;59.9;39;canalizada
+F0194;P0397;Sitio Recanto II;vaca;convencional;TC029;-20.598642;-44.116769;850;57.1;45;sala de ordenha
+F0195;P0251;Sitio do Vale II;vaca;convencional;TC029;-20.013239;-43.940071;405;44.8;31;sala de ordenha
+F0196;P0351;Fazenda Monte Alto III;vaca;organico;TC006;-20.588997;-44.653225;360;35.8;23;canalizada
+F0197;P0151;Sitio Tres Irmaos III;vaca;organico;TC006;-19.22809;-43.761625;595;70.4;34;sala de ordenha
+F0198;P0211;Sitio do Vale III;vaca;organico;TC006;-20.594514;-44.113416;172;30.4;12;sala de ordenha
+F0199;P0620;Fazenda Esperanca III;vaca;organico;TC006;-19.930291;-43.657953;625;59.4;52;canalizada
+F0200;P0457;Fazenda Monte Alto I;vaca;organico;TC006;-20.590574;-44.12157;364;39.8;20;balde ao pe
+F0201;P0393;Fazenda Bela Vista III;vaca;organico;TC006;-19.289266;-44.168698;121;31.5;7;sala de ordenha
+F0202;P0279;Fazenda Monte Alto I;bufala;convencional;TC035;-20.529308;-43.574329;335;48.4;28;canalizada
+F0203;P0245;Sitio do Vale III;bufala;convencional;TC035;-20.143439;-43.670167;273;41.8;19;canalizada
+F0204;P0410;Fazenda Palmeiras III;bufala;convencional;TC035;-19.904923;-44.205841;440;45.2;26;canalizada
+F0205;P0358;Fazenda Bela Vista I;bufala;convencional;TC035;-19.468265;-44.488154;248;45.2;21;balde ao pe
+F0206;P0478;Fazenda Esperanca I;bufala;convencional;TC035;-20.475141;-44.898824;373;48.0;27;balde ao pe
+F0207;P0344;Sitio do Vale III;bufala;convencional;TC035;-19.207571;-43.854907;247;49.1;19;balde ao pe
+F0208;P0268;Fazenda Palmeiras II;bufala;convencional;TC035;-19.404389;-44.505201;568;46.0;41;canalizada
+F0209;P0437;Fazenda Palmeiras II;bufala;convencional;TC035;-19.57335;-44.264517;770;56.2;43;canalizada
+F0210;P0741;Fazenda Santa Rita II;bufala;convencional;TC035;-20.014738;-43.602735;717;71.0;44;canalizada
+F0211;P0048;Sitio do Vale I;bufala;convencional;TC035;-20.480055;-44.561948;389;60.7;21;balde ao pe
+F0212;P0388;Fazenda Santa Rita III;bufala;convencional;TC035;-19.949969;-43.679572;759;75.4;42;sala de ordenha
+F0213;P0171;Fazenda Esperanca II;bufala;convencional;TC035;-19.749493;-44.202231;347;41.3;30;sala de ordenha
+F0214;P0476;Fazenda Sao Jose II;vaca;organico;TC048;-19.588104;-43.761995;770;89.8;44;canalizada
+F0215;P0045;Fazenda Bela Vista II;vaca;organico;TC048;-20.442065;-44.60037;490;49.9;32;sala de ordenha
+F0216;P0753;Sitio Recanto III;vaca;organico;TC048;-19.294709;-43.615199;883;70.7;55;sala de ordenha
+F0217;P0003;Fazenda Palmeiras III;vaca;organico;TC048;-19.666005;-43.892603;819;70.6;56;balde ao pe
+F0218;P0789;Fazenda Sao Jose I;vaca;organico;TC048;-20.260687;-44.314197;808;54.1;66;canalizada
+F0219;P0071;Fazenda Santa Rita I;vaca;organico;TC048;-20.319493;-43.825574;81;30.7;6;sala de ordenha
+F0220;P0262;Fazenda Monte Alto II;vaca;organico;TC048;-20.02022;-44.402801;125;26.1;6;sala de ordenha
+F0221;P0151;Sitio Boa Vista II;vaca;organico;TC048;-20.391853;-44.694195;871;81.5;45;sala de ordenha
+F0222;P0796;Sitio Agua Limpa I;vaca;organico;TC048;-20.29211;-44.095956;803;71.6;61;canalizada
+F0223;P0504;Sitio Recanto I;vaca;organico;TC048;-20.199598;-43.898287;716;62.0;45;balde ao pe
+F0224;P0551;Sitio Aurora II;vaca;organico;TC048;-20.575097;-44.435722;258;25.5;19;sala de ordenha
+F0225;P0605;Fazenda Santa Rita I;vaca;convencional;TC012;-20.178483;-44.192906;758;58.2;63;sala de ordenha
+F0226;P0725;Fazenda Palmeiras I;vaca;convencional;TC012;-19.729366;-44.009309;515;59.6;32;balde ao pe
+F0227;P0235;Sitio Recanto II;vaca;convencional;TC012;-20.277344;-44.465857;463;63.8;35;canalizada
+F0228;P0081;Sitio Tres Irmaos I;vaca;convencional;TC012;-20.555331;-44.038269;840;59.5;64;canalizada
+F0229;P0348;Sitio Agua Limpa III;vaca;convencional;TC012;-20.012282;-43.727186;832;81.7;62;balde ao pe
+F0230;P0106;Fazenda Monte Alto II;vaca;convencional;TC012;-19.377369;-44.665078;612;35.4;38;sala de ordenha
+F0231;P0364;Fazenda Esperanca III;vaca;convencional;TC012;-20.532412;-43.622916;271;50.0;22;sala de ordenha
+F0232;P0447;Fazenda Santa Rita III;vaca;convencional;TC012;-19.395599;-44.188979;674;61.9;38;balde ao pe
+F0233;P0500;Sitio Aurora I;vaca;convencional;TC012;-20.307618;-43.504462;131;31.8;9;sala de ordenha
+F0234;P0044;Sitio Tres Irmaos I;vaca;convencional;TC012;-20.47056;-44.413958;159;50.2;11;balde ao pe
+F0235;P0142;Sitio Tres Irmaos III;vaca;convencional;TC012;-19.542379;-43.734459;653;79.7;42;canalizada
+F0236;P0764;Fazenda Santa Rita I;vaca;convencional;TC012;-20.255233;-44.360392;891;52.5;51;canalizada
+F0237;P0282;Sitio Tres Irmaos I;vaca;convencional;TC005;-19.50928;-43.986427;556;67.3;37;sala de ordenha
+F0238;P0607;Fazenda Sao Jose II;vaca;convencional;TC005;-19.696955;-44.395185;380;54.4;23;canalizada
+F0239;P0083;Fazenda Esperanca III;vaca;convencional;TC005;-19.926536;-44.114302;764;61.3;42;balde ao pe
+F0240;P0196;Sitio Aurora I;vaca;convencional;TC005;-19.837265;-44.178542;272;52.9;24;canalizada
+F0241;P0271;Sitio Boa Vista I;vaca;convencional;TC005;-19.979616;-44.500145;99;41.5;8;canalizada
+F0242;P0113;Sitio Agua Limpa II;vaca;convencional;TC005;-19.267045;-43.983968;603;68.7;44;balde ao pe
+F0243;P0147;Fazenda Santa Rita II;vaca;convencional;TC005;-19.837874;-44.895657;654;67.8;54;canalizada
+F0244;P0241;Fazenda Sao Jose II;vaca;convencional;TC005;-20.231602;-44.669839;336;26.4;26;balde ao pe
+F0245;P0145;Fazenda Palmeiras I;vaca;convencional;TC005;-19.434136;-43.868082;569;65.3;36;canalizada
+F0246;P0233;Sitio Recanto II;vaca;convencional;TC005;-20.371539;-44.055817;64;24.1;6;sala de ordenha
+F0247;P0042;Sitio Boa Vista III;vaca;convencional;TC005;-20.115959;-44.606314;411;55.0;35;canalizada
+F0248;P0272;Sitio Boa Vista III;vaca;convencional;TC008;-19.572011;-43.560181;622;64.8;48;canalizada
+F0249;P0737;Sitio Recanto II;vaca;convencional;TC008;-19.866139;-44.525258;643;45.4;55;sala de ordenha
+F0250;P0242;Fazenda Monte Alto II;vaca;convencional;TC008;-20.497662;-44.658771;148;27.8;7;sala de ordenha
+F0251;P0449;Sitio Tres Irmaos II;vaca;convencional;TC008;-19.559661;-44.28084;752;44.7;46;canalizada
+F0252;P0282;Fazenda Bela Vista II;vaca;convencional;TC008;-19.520638;-44.288109;300;23.9;17;balde ao pe
+F0253;P0174;Sitio Tres Irmaos III;vaca;convencional;TC008;-19.675863;-44.278471;353;61.8;19;sala de ordenha
+F0254;P0174;Sitio Tres Irmaos II;vaca;convencional;TC008;-20.356871;-43.735169;158;39.0;12;sala de ordenha
+F0255;P0032;Sitio Recanto II;vaca;convencional;TC027;-20.092255;-44.242401;389;33.4;30;sala de ordenha
+F0256;P0332;Sitio Recanto III;vaca;convencional;TC027;-19.27892;-43.857746;294;47.3;19;sala de ordenha
+F0257;P0168;Sitio Aurora III;vaca;convencional;TC027;-19.519954;-43.581901;134;15.8;11;canalizada
+F0258;P0080;Fazenda Esperanca III;vaca;convencional;TC027;-20.553679;-44.114204;165;44.2;9;balde ao pe
+F0259;P0013;Fazenda Esperanca II;vaca;convencional;TC027;-19.863965;-44.397168;393;42.6;32;sala de ordenha
+F0260;P0669;Fazenda Esperanca I;vaca;convencional;TC027;-19.999313;-43.997416;435;50.7;26;canalizada
+F0261;P0375;Sitio Aurora I;vaca;convencional;TC027;-19.550536;-44.888265;455;39.4;29;balde ao pe
+F0262;P0444;Fazenda Santa Rita I;vaca;convencional;TC027;-20.194289;-43.911421;80;19.6;6;sala de ordenha
+F0263;P0775;Fazenda Esperanca III;vaca;convencional;TC027;-19.894797;-43.603191;851;78.7;65;sala de ordenha
+F0264;P0485;Fazenda Esperanca II;vaca;convencional;TC027;-19.853773;-44.065758;69;30.6;6;canalizada
+F0265;P0691;Fazenda Esperanca III;vaca;convencional;TC027;-19.215179;-44.18211;396;56.1;21;sala de ordenha
+F0266;P0117;Sitio Recanto I;vaca;convencional;TC027;-19.61309;-44.786159;801;67.9;50;sala de ordenha
+F0267;P0449;Sitio Tres Irmaos I;vaca;convencional;TC014;-20.126213;-44.744213;591;46.3;35;canalizada
+F0268;P0270;Sitio Agua Limpa II;vaca;convencional;TC014;-19.204572;-44.024655;241;37.9;16;canalizada
+F0269;P0459;Sitio Tres Irmaos I;vaca;convencional;TC014;-19.385784;-43.920215;271;54.8;15;sala de ordenha
+F0270;P0197;Sitio do Vale II;vaca;convencional;TC014;-20.380455;-43.796722;183;34.6;12;canalizada
+F0271;P0558;Fazenda Santa Rita II;vaca;convencional;TC014;-19.597959;-43.544413;618;44.9;36;balde ao pe
+F0272;P0063;Fazenda Esperanca II;vaca;convencional;TC014;-20.239942;-44.810933;222;54.2;15;sala de ordenha
+F0273;P0275;Sitio do Vale I;vaca;convencional;TC014;-20.550086;-44.639139;280;40.3;14;canalizada
+F0274;P0337;Fazenda Esperanca II;vaca;convencional;TC038;-19.939709;-44.110148;778;79.4;43;canalizada
+F0275;P0702;Fazenda Palmeiras II;vaca;convencional;TC038;-19.66851;-43.966009;783;60.4;41;balde ao pe
+F0276;P0340;Fazenda Palmeiras III;vaca;convencional;TC038;-19.985826;-43.85945;493;43.1;42;balde ao pe
+F0277;P0459;Fazenda Bela Vista II;vaca;convencional;TC038;-19.751768;-44.477645;642;79.0;56;balde ao pe
+F0278;P0356;Sitio Recanto II;vaca;convencional;TC038;-20.244298;-43.548932;203;35.3;18;balde ao pe
+F0279;P0025;Fazenda Palmeiras II;vaca;convencional;TC038;-19.734782;-44.609688;531;59.5;34;sala de ordenha
+F0280;P0103;Sitio do Vale I;vaca;convencional;TC038;-19.574522;-44.635232;821;75.5;43;canalizada
+F0281;P0512;Fazenda Monte Alto I;vaca;convencional;TC038;-20.382576;-43.554923;886;59.1;56;balde ao pe
+F0282;P0162;Fazenda Sao Jose I;vaca;convencional;TC038;-19.265019;-44.480745;663;45.9;37;canalizada
+F0283;P0656;Fazenda Bela Vista I;vaca;convencional;TC047;-19.939984;-44.597431;878;89.9;47;sala de ordenha
+F0284;P0091;Fazenda Monte Alto I;vaca;convencional;TC047;-20.433303;-43.858486;342;47.4;28;balde ao pe
+F0285;P0005;Sitio Boa Vista II;vaca;convencional;TC047;-19.377479;-44.266655;854;76.9;71;balde ao pe
+F0286;P0238;Fazenda Esperanca II;vaca;convencional;TC047;-19.415562;-44.278684;68;35.7;6;canalizada
+F0287;P0614;Sitio Agua Limpa III;vaca;convencional;TC047;-20.472344;-44.25123;462;52.6;24;canalizada
+F0288;P0641;Fazenda Monte Alto I;vaca;convencional;TC047;-20.175691;-43.626886;868;70.2;50;canalizada
+F0289;P0203;Sitio Agua Limpa I;vaca;convencional;TC047;-20.577242;-43.715526;854;58.2;51;balde ao pe
+F0290;P0246;Sitio Boa Vista III;vaca;convencional;TC047;-20.568908;-44.431832;674;59.3;60;sala de ordenha
+F0291;P0495;Sitio Agua Limpa I;vaca;convencional;TC047;-19.472304;-43.511612;421;48.9;23;balde ao pe
+F0292;P0573;Fazenda Santa Rita II;vaca;convencional;TC047;-19.363259;-44.489613;622;63.1;33;sala de ordenha
+F0293;P0717;Fazenda Santa Rita I;vaca;convencional;TC047;-19.985083;-43.573842;198;48.6;15;sala de ordenha
+F0294;P0522;Sitio Tres Irmaos II;vaca;convencional;TC047;-20.351026;-44.679603;898;52.7;75;canalizada
+F0295;P0431;Sitio Tres Irmaos III;vaca;convencional;TC015;-19.438838;-43.855357;601;47.8;37;balde ao pe
+F0296;P0710;Sitio Boa Vista III;vaca;convencional;TC015;-20.04171;-43.743266;304;37.9;25;sala de ordenha
+F0297;P0462;Fazenda Esperanca III;vaca;convencional;TC015;-20.247196;-44.800814;791;54.5;57;balde ao pe
+F0298;P0086;Fazenda Monte Alto II;vaca;convencional;TC015;-19.26165;-43.757895;177;44.1;13;sala de ordenha
+F0299;P0160;Fazenda Palmeiras I;vaca;convencional;TC015;-19.750053;-44.621278;879;69.1;52;balde ao pe
+F0300;P0203;Sitio Tres Irmaos II;vaca;convencional;TC015;-19.688816;-44.586038;452;49.0;28;sala de ordenha
+F0301;P0615;Sitio Agua Limpa I;vaca;convencional;TC015;-19.732795;-44.127078;650;43.2;50;sala de ordenha
+F0302;P0367;Fazenda Monte Alto II;vaca;convencional;TC015;-19.411902;-44.174707;168;20.3;10;balde ao pe
+F0303;P0058;Sitio do Vale III;vaca;convencional;TC015;-19.491467;-44.774118;751;50.5;53;sala de ordenha
+F0304;P0107;Sitio Agua Limpa II;vaca;convencional;TC015;-20.346484;-43.965565;602;50.8;32;canalizada
+F0305;P0713;Fazenda Sao Jose III;vaca;convencional;TC023;-20.447509;-44.612942;74;25.1;6;sala de ordenha
+F0306;P0128;Sitio Boa Vista III;vaca;convencional;TC023;-20.548466;-44.080628;789;46.0;64;balde ao pe
+F0307;P0266;Sitio Recanto I;vaca;convencional;TC023;-20.584099;-44.292432;184;48.5;9;balde ao pe
+F0308;P0384;Fazenda Monte Alto III;vaca;convencional;TC023;-20.201198;-43.862126;499;54.8;35;canalizada
+F0309;P0359;Fazenda Sao Jose I;vaca;convencional;TC023;-20.562448;-44.795187;170;38.3;11;canalizada
+F0310;P0438;Sitio do Vale III;vaca;convencional;TC023;-19.686035;-43.796297;897;54.5;64;balde ao pe
+F0311;P0281;Sitio Recanto I;vaca;convencional;TC023;-19.227396;-43.703963;429;54.3;22;balde ao pe
+F0312;P0697;Fazenda Santa Rita III;vaca;convencional;TC023;-20.089432;-44.544436;887;70.9;65;balde ao pe
+F0313;P0365;Sitio Aurora I;bufala;convencional;TC041;-20.325158;-44.655812;392;43.1;28;sala de ordenha
+F0314;P0744;Sitio Boa Vista III;bufala;convencional;TC041;-20.43278;-44.441624;841;83.8;50;canalizada
+F0315;P0723;Fazenda Esperanca II;bufala;convencional;TC041;-19.782058;-43.676362;637;80.0;40;canalizada
+F0316;P0353;Fazenda Sao Jose III;bufala;convencional;TC041;-19.500772;-44.189662;808;67.5;56;balde ao pe
+F0317;P0387;Sitio Tres Irmaos III;bufala;convencional;TC041;-20.287667;-43.67184;869;64.9;55;canalizada
+F0318;P0625;Sitio Aurora I;bufala;convencional;TC041;-19.904343;-44.482561;483;40.2;33;canalizada
+F0319;P0661;Fazenda Bela Vista III;bufala;convencional;TC041;-19.817129;-44.802036;558;48.9;44;sala de ordenha
+F0320;P0252;Fazenda Palmeiras I;vaca;convencional;TC044;-19.260112;-43.720645;116;33.4;6;canalizada
+F0321;P0207;Sitio Recanto II;vaca;convencional;TC044;-19.580518;-44.376005;687;61.6;56;balde ao pe
+F0322;P0795;Fazenda Sao Jose III;vaca;convencional;TC044;-19.775531;-43.628297;616;44.2;50;sala de ordenha
+F0323;P0653;Fazenda Bela Vista II;vaca;convencional;TC044;-19.460322;-43.728341;719;69.8;41;sala de ordenha
+F0324;P0777;Fazenda Bela Vista II;vaca;convencional;TC044;-19.628148;-44.097597;804;83.7;68;balde ao pe
+F0325;P0219;Fazenda Bela Vista III;vaca;organico;TC022;-19.970698;-44.001113;748;40.3;39;sala de ordenha
+F0326;P0249;Sitio Agua Limpa II;vaca;organico;TC022;-19.469235;-44.152012;180;41.9;9;balde ao pe
+F0327;P0074;Sitio Aurora III;vaca;organico;TC022;-19.700729;-44.612842;772;56.4;50;balde ao pe
+F0328;P0283;Sitio Tres Irmaos III;vaca;organico;TC022;-20.077798;-44.139598;710;58.8;39;sala de ordenha
+F0329;P0209;Sitio Aurora II;vaca;organico;TC022;-20.244094;-43.563389;898;77.4;58;balde ao pe
+F0330;P0506;Fazenda Bela Vista I;vaca;organico;TC022;-19.317527;-44.239714;421;58.0;36;sala de ordenha
+F0331;P0361;Sitio Aurora III;vaca;organico;TC022;-19.656323;-44.268155;698;72.1;52;balde ao pe
+F0332;P0132;Fazenda Santa Rita I;vaca;organico;TC018;-20.424646;-43.664495;591;47.4;36;canalizada
+F0333;P0559;Fazenda Bela Vista I;vaca;organico;TC018;-20.330723;-44.437507;240;21.2;20;balde ao pe
+F0334;P0678;Fazenda Monte Alto III;vaca;organico;TC018;-19.409153;-44.609577;266;42.0;14;balde ao pe
+F0335;P0776;Sitio Boa Vista II;vaca;organico;TC018;-19.880026;-44.282544;452;45.4;25;balde ao pe
+F0336;P0090;Sitio Agua Limpa I;vaca;organico;TC018;-20.032979;-43.868523;519;52.8;41;balde ao pe
+F0337;P0135;Sitio Aurora III;vaca;organico;TC018;-19.243128;-44.46469;457;49.3;39;canalizada
+F0338;P0448;Fazenda Palmeiras III;vaca;organico;TC018;-19.710445;-44.202995;682;63.0;51;canalizada
+F0339;P0675;Sitio Agua Limpa II;vaca;organico;TC018;-20.256004;-44.071362;777;78.5;55;sala de ordenha
+F0340;P0501;Fazenda Bela Vista I;vaca;organico;TC018;-19.508091;-44.533238;380;38.7;23;canalizada
+F0341;P0255;Fazenda Santa Rita III;vaca;organico;TC018;-19.384789;-44.095514;741;63.6;40;sala de ordenha
+F0342;P0384;Sitio Boa Vista I;vaca;organico;TC018;-20.465182;-44.432631;582;42.7;32;canalizada
+F0343;P0545;Sitio Tres Irmaos II;vaca;organico;TC002;-19.510039;-44.032443;145;44.8;11;canalizada
+F0344;P0134;Sitio Recanto I;vaca;organico;TC002;-20.129663;-44.759408;359;33.5;23;canalizada
+F0345;P0258;Fazenda Esperanca I;vaca;organico;TC002;-19.345529;-44.670611;138;19.4;10;sala de ordenha
+F0346;P0085;Fazenda Bela Vista II;vaca;organico;TC002;-20.324156;-44.099635;509;62.2;31;canalizada
+F0347;P0284;Sitio Aurora II;vaca;organico;TC002;-20.439832;-43.875833;750;44.9;46;balde ao pe
+F0348;P0515;Sitio do Vale I;vaca;organico;TC002;-19.216346;-43.755212;385;50.4;24;balde ao pe
+F0349;P0167;Sitio Tres Irmaos III;vaca;organico;TC002;-20.480058;-44.253735;436;43.8;23;balde ao pe
+F0350;P0460;Fazenda Santa Rita III;vaca;organico;TC002;-19.202055;-44.326994;205;47.4;18;canalizada
+F0351;P0461;Fazenda Bela Vista III;vaca;organico;TC002;-20.450867;-44.530315;603;54.8;45;canalizada
+F0352;P0452;Sitio do Vale III;vaca;organico;TC002;-20.522372;-44.862718;584;37.1;49;canalizada
+F0353;P0532;Fazenda Sao Jose III;vaca;organico;TC002;-20.189697;-43.500261;373;53.1;24;sala de ordenha
+F0354;P0748;Sitio Aurora I;vaca;convencional;TC028;-20.136819;-43.733891;810;72.7;55;canalizada
+F0355;P0093;Sitio Aurora I;vaca;convencional;TC028;-20.480556;-44.390386;313;38.0;21;balde ao pe
+F0356;P0779;Fazenda Sao Jose I;vaca;convencional;TC028;-19.59808;-43.524082;443;47.0;25;canalizada
+F0357;P0192;Sitio Aurora III;vaca;convencional;TC028;-19.204857;-44.757152;609;45.2;40;sala de ordenha
+F0358;P0412;Fazenda Palmeiras III;vaca;convencional;TC028;-19.607273;-43.643988;789;80.4;61;canalizada
+F0359;P0299;Sitio do Vale II;vaca;convencional;TC028;-19.875498;-44.265581;97;34.3;6;sala de ordenha
+F0360;P0648;Fazenda Palmeiras II;vaca;convencional;TC036;-20.24974;-43.630613;414;66.1;35;sala de ordenha
+F0361;P0473;Sitio Agua Limpa III;vaca;convencional;TC036;-19.555962;-43.974847;574;46.8;31;balde ao pe
+F0362;P0439;Fazenda Bela Vista III;vaca;convencional;TC036;-19.40883;-44.538741;678;50.8;40;sala de ordenha
+F0363;P0381;Sitio do Vale I;vaca;convencional;TC036;-20.471004;-44.012962;642;62.6;38;balde ao pe
+F0364;P0316;Fazenda Esperanca II;vaca;convencional;TC036;-19.572738;-43.900392;145;38.8;12;balde ao pe
+F0365;P0422;Fazenda Monte Alto I;vaca;convencional;TC060;-20.184467;-44.018303;641;43.1;37;canalizada
+F0366;P0445;Fazenda Palmeiras I;vaca;convencional;TC060;-19.324328;-44.382847;123;43.3;9;sala de ordenha
+F0367;P0102;Sitio Agua Limpa II;vaca;convencional;TC060;-20.561601;-44.319778;507;42.1;34;sala de ordenha
+F0368;P0501;Sitio Aurora I;vaca;convencional;TC060;-19.273762;-44.406158;411;43.3;30;sala de ordenha
+F0369;P0024;Sitio Aurora I;vaca;convencional;TC060;-20.513641;-44.389016;588;43.8;31;canalizada
+F0370;P0257;Sitio Aurora II;vaca;convencional;TC060;-19.217618;-44.835583;405;43.2;29;sala de ordenha
+F0371;P0063;Fazenda Santa Rita II;vaca;convencional;TC060;-20.041199;-43.978785;341;58.3;19;balde ao pe
+F0372;P0239;Fazenda Sao Jose III;vaca;convencional;TC060;-19.955343;-44.498091;574;35.3;39;sala de ordenha
+F0373;P0547;Sitio Agua Limpa I;vaca;convencional;TC060;-19.58202;-44.798537;566;71.0;36;canalizada
+F0374;P0204;Sitio Recanto II;vaca;convencional;TC034;-20.312362;-44.029084;722;70.8;42;canalizada
+F0375;P0472;Fazenda Bela Vista II;vaca;convencional;TC034;-19.433287;-44.687197;173;43.0;12;sala de ordenha
+F0376;P0075;Fazenda Bela Vista II;vaca;convencional;TC034;-19.518543;-43.709501;563;39.1;32;sala de ordenha
+F0377;P0015;Sitio Aurora I;vaca;convencional;TC034;-19.27507;-43.94922;654;60.9;35;balde ao pe
+F0378;P0228;Sitio Agua Limpa II;vaca;convencional;TC034;-19.410046;-43.829149;656;49.8;37;sala de ordenha
+F0379;P0714;Sitio Tres Irmaos II;vaca;convencional;TC034;-20.496829;-44.241929;691;59.3;44;sala de ordenha
+F0380;P0420;Sitio Agua Limpa I;vaca;convencional;TC034;-19.745009;-43.7608;694;54.3;61;canalizada
+F0381;P0552;Fazenda Monte Alto III;vaca;convencional;TC034;-20.451178;-44.114971;492;41.2;32;balde ao pe
+F0382;P0488;Sitio Boa Vista III;vaca;convencional;TC034;-20.181511;-44.339665;295;34.6;25;canalizada
+F0383;P0482;Sitio Aurora I;vaca;convencional;TC034;-20.210474;-43.817331;350;54.4;20;sala de ordenha
+F0384;P0149;Fazenda Bela Vista III;vaca;convencional;TC034;-19.713804;-44.55954;507;53.5;26;balde ao pe
+F0385;P0307;Fazenda Esperanca II;vaca;organico;TC003;-20.392941;-44.707338;608;59.9;35;balde ao pe
+F0386;P0363;Sitio Agua Limpa III;vaca;organico;TC003;-20.176044;-44.105491;358;32.7;19;canalizada
+F0387;P0006;Fazenda Esperanca II;vaca;organico;TC003;-19.236058;-44.460365;641;63.5;46;canalizada
+F0388;P0638;Fazenda Monte Alto III;vaca;organico;TC003;-20.177695;-44.772935;236;18.9;14;canalizada
+F0389;P0237;Sitio Boa Vista II;vaca;organico;TC003;-19.654094;-43.984078;824;52.6;49;canalizada
+F0390;P0624;Fazenda Sao Jose II;vaca;organico;TC003;-19.465552;-44.830151;784;71.4;58;canalizada
+F0391;P0163;Fazenda Santa Rita I;vaca;organico;TC003;-20.339072;-44.530329;215;49.6;18;sala de ordenha
+F0392;P0286;Fazenda Bela Vista II;vaca;organico;TC003;-20.012846;-44.015764;752;75.4;43;sala de ordenha
+F0393;P0681;Sitio Recanto I;vaca;organico;TC003;-20.01685;-44.07691;102;27.6;6;balde ao pe
+F0394;P0178;Fazenda Palmeiras I;vaca;convencional;TC040;-19.712887;-44.739799;260;48.5;15;canalizada
+F0395;P0508;Sitio Agua Limpa I;vaca;convencional;TC040;-20.576401;-44.839924;164;44.4;9;canalizada
+F0396;P0510;Fazenda Palmeiras II;vaca;convencional;TC040;-19.410717;-43.791199;343;44.7;25;sala de ordenha
+F0397;P0564;Fazenda Bela Vista III;vaca;convencional;TC040;-20.106966;-44.260851;477;56.9;41;sala de ordenha
+F0398;P0772;Fazenda Monte Alto I;vaca;convencional;TC040;-19.459459;-43.68167;194;49.3;16;sala de ordenha
+F0399;P0191;Sitio do Vale III;vaca;convencional;TC040;-20.23916;-44.335875;399;38.2;31;sala de ordenha
+F0400;P0144;Fazenda Santa Rita II;vaca;convencional;TC040;-20.009728;-44.021234;510;62.5;29;sala de ordenha
+F0401;P0416;Fazenda Bela Vista III;vaca;convencional;TC040;-19.870536;-43.618116;265;41.8;15;canalizada
+F0402;P0732;Fazenda Monte Alto I;vaca;convencional;TC040;-19.257826;-43.864306;310;48.9;19;sala de ordenha
+F0403;P0562;Sitio do Vale III;vaca;convencional;TC040;-19.220566;-43.539619;495;54.9;27;balde ao pe
+F0404;P0621;Sitio Boa Vista I;cabra;convencional;TC020;-20.356401;-44.72319;193;25.8;14;canalizada
+F0405;P0269;Sitio Aurora I;cabra;convencional;TC020;-20.467114;-44.110045;286;36.0;21;balde ao pe
+F0406;P0797;Fazenda Monte Alto I;cabra;convencional;TC020;-20.142639;-43.743839;343;52.9;19;sala de ordenha
+F0407;P0789;Fazenda Monte Alto II;cabra;convencional;TC020;-19.641205;-43.663304;585;72.5;34;sala de ordenha
+F0408;P0738;Fazenda Monte Alto III;cabra;convencional;TC020;-20.264231;-43.804651;117;20.6;8;balde ao pe
+F0409;P0760;Fazenda Monte Alto II;cabra;convencional;TC020;-19.917903;-44.30676;507;60.5;32;balde ao pe
+F0410;P0481;Sitio Aurora III;cabra;convencional;TC020;-19.351571;-44.456909;566;55.5;36;balde ao pe
+F0411;P0781;Fazenda Esperanca II;cabra;convencional;TC020;-20.370611;-44.170846;777;63.8;45;sala de ordenha
+F0412;P0496;Fazenda Monte Alto III;cabra;convencional;TC020;-19.271964;-43.929768;887;80.0;53;canalizada
+F0413;P0519;Fazenda Esperanca I;cabra;convencional;TC020;-20.532806;-44.244507;346;47.6;21;balde ao pe
+F0414;P0664;Sitio do Vale III;cabra;convencional;TC020;-20.040865;-44.433769;354;40.7;25;canalizada
+F0415;P0458;Fazenda Esperanca I;vaca;convencional;TC051;-19.400478;-43.8939;399;38.0;33;canalizada
+F0416;P0014;Fazenda Sao Jose II;vaca;convencional;TC051;-19.261378;-44.079129;669;65.1;41;balde ao pe
+F0417;P0549;Fazenda Santa Rita III;vaca;convencional;TC051;-19.602764;-44.594816;652;49.5;48;sala de ordenha
+F0418;P0549;Sitio do Vale III;vaca;convencional;TC051;-19.449489;-43.916946;372;45.2;22;balde ao pe
+F0419;P0686;Sitio Aurora III;vaca;convencional;TC051;-19.315506;-44.432497;136;20.2;8;balde ao pe
+F0420;P0061;Sitio Aurora II;vaca;convencional;TC045;-19.809829;-44.074671;884;67.3;47;balde ao pe
+F0421;P0489;Sitio Aurora II;vaca;convencional;TC045;-19.900958;-43.717038;840;70.3;49;canalizada
+F0422;P0762;Fazenda Esperanca II;vaca;convencional;TC045;-20.04526;-44.716908;362;49.6;24;canalizada
+F0423;P0570;Fazenda Santa Rita III;vaca;convencional;TC045;-20.259238;-44.511475;382;50.1;25;sala de ordenha
+F0424;P0579;Fazenda Esperanca III;vaca;convencional;TC045;-20.539413;-43.863911;757;62.2;46;canalizada
+F0425;P0791;Sitio Recanto III;vaca;convencional;TC045;-20.321704;-44.306041;793;66.7;43;sala de ordenha
+F0426;P0156;Fazenda Santa Rita I;vaca;convencional;TC045;-20.331346;-44.381924;695;78.3;58;balde ao pe
+F0427;P0161;Sitio Boa Vista III;vaca;convencional;TC045;-19.939935;-44.630328;184;41.4;11;canalizada
+F0428;P0338;Sitio Recanto I;vaca;convencional;TC045;-19.555509;-43.67487;836;76.0;68;balde ao pe
+F0429;P0229;Sitio Aurora II;vaca;convencional;TC045;-20.384241;-43.650196;883;75.6;75;sala de ordenha
+F0430;P0604;Sitio Boa Vista II;vaca;convencional;TC045;-19.616755;-44.289398;432;37.6;33;canalizada
+F0431;P0253;Sitio Agua Limpa III;vaca;convencional;TC056;-20.085231;-44.584533;819;67.8;60;sala de ordenha
+F0432;P0768;Fazenda Palmeiras III;vaca;convencional;TC056;-20.573734;-44.835946;880;65.9;79;balde ao pe
+F0433;P0172;Fazenda Palmeiras II;vaca;convencional;TC056;-20.576609;-44.157277;114;31.6;7;balde ao pe
+F0434;P0355;Fazenda Palmeiras I;vaca;convencional;TC056;-19.316283;-44.511038;359;54.8;24;canalizada
+F0435;P0301;Fazenda Esperanca III;vaca;convencional;TC056;-19.266209;-44.280308;836;64.9;54;balde ao pe
+F0436;P0376;Fazenda Monte Alto I;vaca;convencional;TC056;-19.234389;-44.312872;393;31.5;26;canalizada
+F0437;P0244;Sitio Boa Vista I;vaca;convencional;TC056;-20.523784;-43.979225;399;42.6;23;sala de ordenha
+F0438;P0142;Fazenda Esperanca II;vaca;convencional;TC056;-19.924074;-44.109237;238;52.2;13;canalizada
+F0439;P0749;Sitio Agua Limpa III;vaca;convencional;TC056;-19.950137;-44.62062;189;44.7;10;sala de ordenha
+F0440;P0030;Sitio Agua Limpa II;vaca;convencional;TC056;-20.330682;-44.625301;826;71.0;58;sala de ordenha
+F0441;P0531;Sitio Recanto II;vaca;convencional;TC052;-20.422163;-44.754926;555;42.5;30;sala de ordenha
+F0442;P0031;Fazenda Esperanca I;vaca;convencional;TC052;-19.95614;-43.84973;290;37.2;19;sala de ordenha
+F0443;P0320;Fazenda Monte Alto I;vaca;convencional;TC052;-19.666998;-44.288247;292;38.2;21;balde ao pe
+F0444;P0668;Sitio Agua Limpa III;vaca;convencional;TC052;-19.653287;-43.581894;515;40.7;27;balde ao pe
+F0445;P0732;Fazenda Bela Vista III;vaca;convencional;TC052;-20.52187;-44.668489;731;54.9;43;canalizada
+F0446;P0324;Sitio Tres Irmaos I;vaca;convencional;TC052;-20.240134;-43.701544;506;40.3;39;canalizada
+F0447;P0518;Sitio Recanto III;vaca;convencional;TC052;-19.601559;-44.511279;766;71.4;49;canalizada
+F0448;P0759;Sitio do Vale I;vaca;convencional;TC052;-19.315479;-44.510941;814;76.7;48;sala de ordenha
+F0449;P0642;Sitio do Vale II;vaca;convencional;TC052;-19.528783;-43.943676;881;92.3;71;canalizada
+F0450;P0758;Sitio Recanto I;vaca;convencional;TC052;-19.523881;-43.661583;118;24.1;8;balde ao pe
+F0451;P0159;Sitio Boa Vista I;vaca;convencional;TC052;-19.450453;-44.677102;101;14.9;7;canalizada
+F0452;P0755;Fazenda Esperanca I;vaca;convencional;TC052;-20.573418;-44.392718;655;63.8;49;sala de ordenha
+F0453;P0427;Fazenda Santa Rita II;vaca;convencional;TC025;-20.368515;-44.319515;156;43.6;8;canalizada
+F0454;P0455;Sitio Tres Irmaos III;vaca;convencional;TC025;-20.468854;-44.751282;722;45.8;64;balde ao pe
+F0455;P0435;Sitio Boa Vista I;vaca;convencional;TC025;-19.883887;-44.664041;167;34.2;9;sala de ordenha
+F0456;P0640;Fazenda Monte Alto III;vaca;convencional;TC025;-19.994588;-44.896785;503;41.3;39;sala de ordenha
+F0457;P0761;Fazenda Palmeiras III;vaca;convencional;TC025;-19.380654;-44.309753;454;55.5;31;sala de ordenha
+F0458;P0527;Fazenda Monte Alto II;vaca;convencional;TC025;-19.209116;-44.707777;266;54.6;17;balde ao pe
+F0459;P0319;Fazenda Monte Alto III;vaca;convencional;TC025;-20.297078;-44.850623;313;33.3;18;balde ao pe
+F0460;P0727;Fazenda Esperanca III;vaca;convencional;TC025;-19.466465;-44.704034;733;65.4;42;balde ao pe
+F0461;P0729;Fazenda Monte Alto II;vaca;convencional;TC025;-20.178562;-43.665182;114;42.2;9;balde ao pe
+F0462;P0423;Fazenda Esperanca III;vaca;convencional;TC025;-19.517262;-44.221523;666;57.2;54;balde ao pe
+F0463;P0718;Sitio Agua Limpa I;vaca;convencional;TC025;-19.956348;-43.545427;702;60.5;61;balde ao pe
+F0464;P0208;Fazenda Santa Rita I;vaca;convencional;TC025;-19.632678;-44.536782;383;46.4;31;balde ao pe
+F0465;P0150;Fazenda Sao Jose II;vaca;convencional;TC030;-19.531539;-44.518675;162;41.2;11;sala de ordenha
+F0466;P0538;Sitio Recanto II;vaca;convencional;TC030;-19.458998;-44.370802;638;48.7;35;sala de ordenha
+F0467;P0274;Fazenda Monte Alto III;vaca;convencional;TC030;-19.800162;-43.674939;217;44.3;11;sala de ordenha
+F0468;P0339;Fazenda Santa Rita I;vaca;convencional;TC030;-19.559325;-43.656056;594;62.6;33;balde ao pe
+F0469;P0680;Sitio Recanto II;vaca;convencional;TC030;-20.363623;-43.800892;557;53.7;30;balde ao pe
+F0470;P0698;Sitio Aurora I;vaca;convencional;TC057;-19.755901;-44.490459;296;36.4;17;balde ao pe
+F0471;P0139;Sitio Aurora I;vaca;convencional;TC057;-19.900591;-44.467544;377;50.3;34;sala de ordenha
+F0472;P0448;Sitio Recanto I;vaca;convencional;TC057;-19.569084;-44.594258;271;31.3;17;sala de ordenha
+F0473;P0574;Fazenda Palmeiras II;vaca;convencional;TC057;-19.915398;-44.552328;683;85.4;47;balde ao pe
+F0474;P0535;Sitio Tres Irmaos I;vaca;convencional;TC057;-19.384733;-44.333348;690;59.3;51;balde ao pe
+F0475;P0114;Fazenda Sao Jose II;vaca;convencional;TC057;-19.616562;-44.284928;291;31.0;20;balde ao pe
+F0476;P0564;Sitio Agua Limpa III;vaca;convencional;TC057;-20.196099;-44.576684;273;32.7;15;sala de ordenha
+F0477;P0477;Sitio Boa Vista III;vaca;convencional;TC057;-19.373674;-43.620043;469;72.9;31;canalizada
+F0478;P0378;Sitio Boa Vista II;vaca;convencional;TC057;-19.601784;-43.763421;329;36.0;29;canalizada
+F0479;P0234;Fazenda Sao Jose I;vaca;convencional;TC057;-19.57954;-44.688068;397;56.3;28;balde ao pe
+F0480;P0175;Sitio Tres Irmaos III;vaca;convencional;TC057;-19.412074;-44.47475;625;51.6;35;balde ao pe
+F0481;P0747;Fazenda Sao Jose I;vaca;organico;TC007;-20.538969;-44.888299;233;24.7;12;sala de ordenha
+F0482;P0406;Sitio Tres Irmaos II;vaca;organico;TC007;-19.924832;-44.592213;604;54.5;40;sala de ordenha
+F0483;P0649;Sitio do Vale II;vaca;organico;TC007;-19.499411;-44.064537;755;71.8;40;sala de ordenha
+F0484;P0358;Fazenda Esperanca II;vaca;organico;TC007;-20.025157;-44.663095;768;48.1;50;canalizada
+F0485;P0471;Fazenda Santa Rita II;vaca;organico;TC007;-20.352989;-44.501938;537;39.5;35;canalizada
+F0486;P0419;Fazenda Esperanca III;vaca;organico;TC007;-19.864593;-44.247271;413;45.2;26;balde ao pe
+F0487;P0372;Fazenda Sao Jose I;vaca;organico;TC007;-19.876029;-44.426296;91;40.4;6;sala de ordenha
+F0488;P0011;Sitio Tres Irmaos I;vaca;organico;TC007;-20.510098;-44.457586;294;39.6;22;balde ao pe
+F0489;P0225;Fazenda Sao Jose II;vaca;organico;TC007;-19.233546;-43.746514;580;57.6;35;sala de ordenha
+F0490;P0016;Fazenda Bela Vista II;vaca;convencional;TC017;-19.673144;-43.736564;846;70.0;47;balde ao pe
+F0491;P0543;Fazenda Palmeiras I;vaca;convencional;TC017;-19.928217;-43.942716;646;44.9;34;canalizada
+F0492;P0141;Fazenda Esperanca I;vaca;convencional;TC017;-20.079707;-43.817773;62;31.9;6;canalizada
+F0493;P0334;Sitio Boa Vista III;vaca;convencional;TC017;-20.271088;-44.320535;313;60.2;17;sala de ordenha
+F0494;P0346;Fazenda Monte Alto III;vaca;convencional;TC017;-19.7317;-44.087501;677;75.3;36;sala de ordenha
+F0495;P0091;Sitio Aurora III;vaca;convencional;TC017;-19.83134;-43.639311;365;43.9;28;sala de ordenha
+F0496;P0291;Sitio Tres Irmaos II;vaca;convencional;TC037;-19.814036;-44.700044;409;52.6;21;balde ao pe
+F0497;P0426;Sitio Boa Vista II;vaca;convencional;TC037;-20.534769;-44.540227;601;49.9;40;sala de ordenha
+F0498;P0325;Fazenda Monte Alto I;vaca;convencional;TC037;-20.288462;-44.06538;129;21.9;8;canalizada
+F0499;P0195;Fazenda Bela Vista III;vaca;convencional;TC037;-19.714119;-44.49697;136;38.9;7;balde ao pe
+F0500;P0022;Fazenda Palmeiras I;vaca;convencional;TC037;-20.191757;-43.551553;366;36.6;21;balde ao pe
+F0501;P0328;Fazenda Santa Rita II;vaca;convencional;TC037;-19.833486;-44.510977;661;66.9;51;sala de ordenha
+F0502;P0652;Sitio do Vale II;vaca;convencional;TC037;-20.58126;-44.747245;829;76.3;53;sala de ordenha
+F0503;P0694;Fazenda Monte Alto I;vaca;convencional;TC037;-20.022515;-43.648646;539;53.1;41;sala de ordenha
+F0504;P0581;Fazenda Esperanca III;vaca;convencional;TC037;-20.505264;-44.670956;810;66.5;52;balde ao pe
+F0505;P0278;Sitio Tres Irmaos III;vaca;convencional;TC053;-19.882387;-44.072972;284;45.8;18;sala de ordenha
+F0506;P0104;Sitio Recanto II;vaca;convencional;TC053;-19.499923;-43.698852;250;46.5;16;balde ao pe
+F0507;P0597;Fazenda Esperanca II;vaca;convencional;TC053;-19.519839;-44.855026;900;78.5;48;balde ao pe
+F0508;P0399;Fazenda Bela Vista I;vaca;convencional;TC053;-19.323933;-44.764203;384;53.1;22;sala de ordenha
+F0509;P0157;Fazenda Sao Jose III;vaca;convencional;TC053;-19.533192;-44.855315;785;88.5;60;sala de ordenha
+F0510;P0224;Fazenda Bela Vista III;vaca;convencional;TC053;-19.617603;-44.568418;526;37.0;33;sala de ordenha
+F0511;P0666;Fazenda Bela Vista III;vaca;convencional;TC053;-19.373554;-43.942944;204;39.2;14;canalizada
+F0512;P0270;Fazenda Monte Alto II;vaca;convencional;TC053;-20.147431;-44.600452;303;30.2;21;balde ao pe
+F0513;P0297;Sitio do Vale II;vaca;convencional;TC053;-19.892908;-44.879718;499;60.0;37;canalizada
+F0514;P0763;Sitio Agua Limpa I;vaca;convencional;TC039;-20.026279;-44.522744;327;30.5;17;sala de ordenha
+F0515;P0507;Fazenda Esperanca II;vaca;convencional;TC039;-20.465844;-44.770679;458;34.0;37;canalizada
+F0516;P0571;Sitio do Vale II;vaca;convencional;TC039;-20.098516;-44.11855;616;62.5;32;balde ao pe
+F0517;P0396;Fazenda Bela Vista III;vaca;convencional;TC039;-19.286755;-44.30139;541;56.2;44;sala de ordenha
+F0518;P0070;Sitio Recanto II;vaca;convencional;TC039;-19.812195;-44.091973;822;63.0;61;balde ao pe
+F0519;P0566;Sitio Recanto III;vaca;convencional;TC039;-20.596373;-44.663754;141;37.0;10;sala de ordenha
+F0520;P0661;Fazenda Sao Jose II;vaca;convencional;TC039;-20.065667;-44.286281;858;92.5;66;sala de ordenha
+F0521;P0231;Fazenda Santa Rita I;vaca;convencional;TC039;-19.834288;-44.094385;134;20.6;7;canalizada
+F0522;P0037;Sitio Recanto III;vaca;convencional;TC039;-19.972169;-44.796213;484;36.7;29;canalizada
+F0523;P0344;Sitio Boa Vista III;bufala;convencional;TI0001;-19.899625;-44.251953;80;34.9;6;canalizada
+F0524;P0383;Sitio Aurora II;vaca;convencional;TI0002;-20.570914;-43.578589;647;46.3;52;balde ao pe
+F0525;P0413;Fazenda Esperanca III;vaca;convencional;TI0003;-19.586254;-43.886007;857;69.8;65;sala de ordenha
+F0526;P0211;Sitio Aurora III;vaca;convencional;TI0004;-19.218157;-43.925512;706;57.4;37;canalizada
+F0527;P0528;Fazenda Santa Rita II;bufala;convencional;TI0005;-20.18146;-44.324661;676;65.6;44;canalizada
+F0528;P0292;Fazenda Santa Rita I;cabra;convencional;TI0006;-19.490323;-44.597447;431;32.4;27;sala de ordenha
+F0529;P0486;Sitio Recanto II;vaca;convencional;TI0007;-20.320407;-44.849591;552;38.9;42;sala de ordenha
+F0530;P0082;Sitio Tres Irmaos II;vaca;convencional;TI0008;-20.422199;-43.530653;183;25.7;9;canalizada
+F0531;P0707;Fazenda Sao Jose II;vaca;convencional;TI0009;-19.273371;-43.943185;455;49.1;24;balde ao pe
+F0532;P0497;Fazenda Sao Jose I;vaca;convencional;TI0010;-19.416205;-43.777332;780;45.1;54;canalizada
+F0533;P0112;Sitio Agua Limpa III;vaca;convencional;TI0011;-19.772965;-44.192896;771;81.4;46;balde ao pe
+F0534;P0184;Fazenda Esperanca III;vaca;convencional;TI0012;-19.533289;-43.808893;80;23.5;6;canalizada
+F0535;P0296;Sitio Agua Limpa II;vaca;convencional;TI0013;-20.031466;-44.349635;206;43.6;14;balde ao pe
+F0536;P0640;Sitio Tres Irmaos I;vaca;convencional;TI0014;-19.71246;-43.595589;282;29.2;17;canalizada
+F0537;P0556;Sitio Aurora II;vaca;convencional;TI0015;-19.981469;-43.525359;823;82.4;44;balde ao pe
+F0538;P0782;Fazenda Palmeiras III;vaca;convencional;TI0016;-19.388706;-43.84579;310;59.2;21;canalizada
+F0539;P0483;Sitio do Vale III;cabra;convencional;TI0017;-19.484627;-44.491559;588;54.0;42;canalizada
+F0540;P0540;Fazenda Palmeiras I;vaca;convencional;TI0018;-20.520895;-44.298037;199;19.3;11;canalizada
+F0541;P0050;Fazenda Esperanca III;vaca;organico;TI0019;-19.932047;-44.838168;838;69.4;59;canalizada
+F0542;P0398;Fazenda Esperanca III;vaca;convencional;TI0020;-19.758991;-44.69601;440;36.2;24;sala de ordenha
+F0543;P0038;Sitio do Vale II;vaca;convencional;TI0021;-20.002073;-44.546032;607;66.9;53;canalizada
+F0544;P0432;Fazenda Santa Rita I;vaca;organico;TI0022;-19.770544;-43.530526;455;56.7;32;canalizada
+F0545;P0008;Fazenda Bela Vista I;vaca;convencional;TI0023;-19.444304;-44.261345;311;49.0;17;canalizada
+F0546;P0342;Fazenda Sao Jose III;vaca;convencional;TI0024;-20.205611;-43.562104;629;52.4;39;canalizada
+F0547;P0491;Sitio Boa Vista I;vaca;convencional;TI0025;-19.368724;-43.688355;749;48.2;59;canalizada
+F0548;P0568;Sitio Tres Irmaos II;vaca;convencional;TI0026;-19.804878;-44.64627;405;37.5;26;canalizada
+F0549;P0369;Fazenda Bela Vista I;vaca;organico;TI0027;-19.617077;-44.621377;615;65.7;42;canalizada
+F0550;P0477;Fazenda Palmeiras III;vaca;convencional;TI0028;-19.810527;-44.10693;424;49.8;36;canalizada
+F0551;P0392;Fazenda Santa Rita II;vaca;convencional;TI0029;-20.089364;-44.537273;787;60.7;49;sala de ordenha
+F0552;P0256;Fazenda Esperanca III;vaca;convencional;TI0030;-19.891375;-43.568621;278;42.9;21;sala de ordenha
+F0553;P0610;Sitio Boa Vista II;vaca;convencional;TI0031;-20.322688;-43.933047;312;37.5;16;sala de ordenha
+F0554;P0352;Fazenda Sao Jose III;vaca;organico;TI0032;-20.113813;-43.608002;584;69.0;39;sala de ordenha
+F0555;P0205;Sitio Boa Vista I;vaca;convencional;TI0033;-19.93335;-44.794931;676;47.3;51;sala de ordenha
+F0556;P0741;Sitio Recanto II;vaca;convencional;TI0034;-20.128117;-43.85142;205;27.8;15;sala de ordenha
+F0557;P0255;Sitio do Vale III;vaca;convencional;TI0035;-19.997851;-44.776324;511;49.9;40;balde ao pe
+F0558;P0628;Sitio Agua Limpa I;vaca;organico;TI0036;-20.399104;-44.332242;374;28.6;24;canalizada
+F0559;P0043;Sitio Aurora II;vaca;convencional;TI0037;-19.71991;-43.878769;137;21.7;12;sala de ordenha
+F0560;P0769;Sitio Tres Irmaos I;vaca;convencional;TI0038;-19.415599;-44.470973;335;54.1;29;balde ao pe
+F0561;P0436;Sitio Tres Irmaos I;vaca;convencional;TI0039;-19.57916;-44.762473;295;33.9;19;balde ao pe
+F0562;P0314;Fazenda Bela Vista I;vaca;convencional;TI0040;-19.664092;-43.533107;730;62.2;41;sala de ordenha
+F0563;P0683;Fazenda Santa Rita I;vaca;convencional;TI0041;-19.620709;-44.494707;64;34.3;6;canalizada
+F0564;P0546;Sitio Aurora I;vaca;organico;TI0042;-20.363864;-44.511608;705;40.5;44;sala de ordenha
+F0565;P0036;Fazenda Monte Alto I;vaca;convencional;TI0043;-20.430606;-44.821278;283;44.9;15;canalizada
+F0566;P0429;Sitio Boa Vista II;vaca;convencional;TI0044;-20.141504;-44.821435;102;34.3;6;balde ao pe
+F0567;P0021;Fazenda Monte Alto III;vaca;convencional;TI0045;-20.403212;-44.052864;671;78.8;42;balde ao pe
+F0568;P0690;Fazenda Monte Alto II;vaca;organico;TI0046;-20.437301;-44.580831;863;73.5;51;canalizada
+F0569;P0409;Fazenda Esperanca I;vaca;convencional;TI0047;-20.133816;-43.66677;816;71.1;49;canalizada
+F0570;P0281;Fazenda Sao Jose II;vaca;convencional;TI0048;-19.603012;-43.685139;675;63.3;38;sala de ordenha
+F0571;P0758;Sitio Tres Irmaos III;vaca;convencional;TI0049;-19.35132;-44.538389;665;71.4;55;canalizada
+F0572;P0215;Sitio Boa Vista II;vaca;convencional;TI0050;-19.391111;-43.819918;602;47.2;39;canalizada
+F0573;P0695;Fazenda Santa Rita I;bufala;convencional;TI0051;-20.05076;-44.428568;516;40.6;44;balde ao pe
+F0574;P0116;Fazenda Sao Jose III;bufala;convencional;TI0052;-20.112892;-44.482969;174;16.7;12;canalizada
+F0575;P0402;Fazenda Palmeiras I;vaca;convencional;TI0053;-20.489427;-43.607349;772;47.9;42;canalizada
+F0576;P0262;Sitio Recanto III;vaca;convencional;TI0054;-19.929437;-43.991871;579;61.2;31;balde ao pe
+F0577;P0208;Sitio do Vale I;vaca;organico;TI0055;-19.551817;-44.201185;172;44.7;11;balde ao pe
+F0578;P0750;Sitio Tres Irmaos II;bufala;convencional;TI0056;-19.561628;-43.7008;823;52.9;65;balde ao pe
+F0579;P0542;Sitio Aurora II;vaca;convencional;TI0057;-19.394992;-44.13569;141;27.0;11;canalizada
+F0580;P0143;Fazenda Sao Jose III;vaca;convencional;TI0058;-19.751426;-44.190438;824;74.1;50;balde ao pe
+F0581;P0693;Fazenda Sao Jose I;bufala;convencional;TI0059;-19.663811;-43.535068;78;27.2;6;canalizada
+F0582;P0349;Fazenda Palmeiras III;vaca;convencional;TI0060;-20.060032;-44.709355;820;65.0;43;sala de ordenha
+F0583;P0717;Fazenda Santa Rita I;vaca;organico;TI0061;-20.042607;-43.681777;884;54.3;57;balde ao pe
+F0584;P0662;Sitio Boa Vista II;vaca;convencional;TI0062;-19.910702;-43.94112;754;54.4;42;sala de ordenha
+F0585;P0534;Fazenda Monte Alto III;vaca;organico;TI0063;-19.548666;-43.737698;560;51.0;30;balde ao pe
+F0586;P0463;Fazenda Santa Rita I;vaca;convencional;TI0064;-20.543209;-44.897849;371;41.8;22;canalizada
+F0587;P0469;Fazenda Palmeiras III;vaca;organico;TI0065;-19.576653;-43.722935;762;65.6;66;sala de ordenha
+F0588;P0682;Sitio Recanto II;vaca;convencional;TI0066;-19.775931;-43.991398;697;44.2;37;sala de ordenha
+F0589;P0530;Fazenda Monte Alto I;vaca;convencional;TI0067;-19.833497;-43.71736;884;75.9;50;sala de ordenha
+F0590;P0440;Fazenda Santa Rita III;vaca;convencional;TI0068;-19.223092;-43.543766;767;80.8;44;canalizada
+F0591;P0603;Sitio Tres Irmaos III;vaca;convencional;TI0069;-20.016747;-43.710754;801;66.3;45;balde ao pe
+F0592;P0070;Fazenda Monte Alto II;vaca;convencional;TI0070;-19.385505;-44.678019;214;21.8;19;balde ao pe
+F0593;P0243;Sitio Agua Limpa III;vaca;convencional;TI0071;-19.594829;-44.748281;130;43.7;7;sala de ordenha
+F0594;P0302;Fazenda Palmeiras II;vaca;convencional;TI0072;-19.862597;-44.674004;314;31.3;24;canalizada
+F0595;P0627;Fazenda Santa Rita II;vaca;convencional;TI0073;-19.631928;-44.193287;130;23.6;6;balde ao pe
+F0596;P0072;Fazenda Esperanca III;vaca;convencional;TI0074;-20.118161;-44.438834;322;41.1;18;sala de ordenha
+F0597;P0744;Fazenda Monte Alto I;vaca;convencional;TI0075;-19.496506;-43.58645;508;42.7;27;canalizada
+F0598;P0026;Fazenda Santa Rita II;vaca;organico;TI0076;-19.52231;-43.957095;764;64.7;55;canalizada
+F0599;P0760;Fazenda Bela Vista II;vaca;convencional;TI0077;-19.906353;-43.744838;303;56.3;19;canalizada
+F0600;P0046;Sitio Tres Irmaos III;bufala;convencional;TI0078;-20.456113;-43.632722;407;49.7;22;canalizada
+F0601;P0105;Fazenda Monte Alto III;vaca;convencional;TI0079;-19.477014;-43.9606;132;47.4;8;sala de ordenha
+F0602;P0786;Sitio Aurora III;bufala;convencional;TI0080;-20.559402;-43.777785;138;35.2;8;sala de ordenha
+F0603;P0672;Sitio Recanto II;vaca;convencional;TI0081;-20.188261;-43.987346;432;30.7;34;canalizada
+F0604;P0377;Sitio Tres Irmaos II;vaca;convencional;TI0082;-20.064737;-44.600446;267;21.6;20;sala de ordenha
+F0605;P0615;Fazenda Bela Vista I;vaca;convencional;TI0083;-20.456469;-43.77861;264;34.1;16;balde ao pe
+F0606;P0092;Fazenda Monte Alto III;vaca;convencional;TI0084;-20.361843;-44.476313;81;27.2;7;balde ao pe
+F0607;P0656;Fazenda Sao Jose III;vaca;convencional;TI0085;-20.083385;-44.733814;327;38.2;20;balde ao pe
+F0608;P0715;Sitio Agua Limpa III;vaca;convencional;TI0086;-20.426672;-44.576887;308;32.7;26;balde ao pe
+F0609;P0746;Fazenda Palmeiras I;vaca;convencional;TI0087;-19.45052;-44.06941;311;38.2;17;canalizada
+F0610;P0288;Sitio Agua Limpa II;vaca;convencional;TI0088;-20.007276;-43.559863;250;53.5;18;canalizada
+F0611;P0488;Sitio do Vale III;vaca;convencional;TI0089;-19.627107;-43.568273;207;44.3;16;canalizada
+F0612;P0602;Fazenda Esperanca I;bufala;convencional;TI0090;-19.958612;-44.821449;208;35.8;18;sala de ordenha
+F0613;P0742;Sitio Recanto III;vaca;convencional;TI0091;-20.578414;-44.103849;857;47.4;59;balde ao pe
+F0614;P0515;Fazenda Santa Rita III;bufala;convencional;TI0092;-19.455154;-44.560357;652;43.8;55;canalizada
+F0615;P0069;Fazenda Esperanca II;vaca;convencional;TI0093;-20.265858;-44.126416;568;66.0;36;canalizada
+F0616;P0767;Fazenda Sao Jose III;vaca;convencional;TI0094;-20.056625;-44.721309;772;59.7;51;balde ao pe
+F0617;P0378;Fazenda Monte Alto III;vaca;organico;TI0095;-20.570421;-44.745252;497;54.9;34;balde ao pe
+F0618;P0529;Sitio do Vale II;vaca;convencional;TI0096;-19.977618;-44.455841;573;60.0;38;balde ao pe
+F0619;P0456;Sitio Aurora I;vaca;convencional;TI0097;-19.967162;-43.934869;558;39.4;31;sala de ordenha
+F0620;P0349;Sitio Aurora I;vaca;convencional;TI0098;-20.480623;-44.68605;768;56.0;49;canalizada
+F0621;P0613;Sitio do Vale I;vaca;convencional;TI0099;-19.526995;-44.483113;615;48.8;36;sala de ordenha
+F0622;P0169;Fazenda Esperanca I;vaca;convencional;TI0100;-19.799588;-43.594057;781;54.2;57;sala de ordenha
+F0623;P0400;Sitio Aurora I;vaca;convencional;TI0101;-20.423562;-43.765998;121;25.1;7;balde ao pe
+F0624;P0711;Sitio Agua Limpa II;vaca;convencional;TI0102;-19.391159;-44.188745;84;23.1;6;sala de ordenha
+F0625;P0366;Sitio Recanto I;vaca;convencional;TI0103;-20.509869;-44.276419;746;57.5;51;sala de ordenha
+F0626;P0424;Fazenda Bela Vista II;vaca;convencional;TI0104;-19.280553;-44.109705;869;74.5;74;canalizada
+F0627;P0298;Fazenda Bela Vista I;vaca;convencional;TI0105;-20.10077;-44.620047;873;73.4;47;sala de ordenha
+F0628;P0336;Fazenda Monte Alto II;vaca;convencional;TI0106;-19.758891;-44.340838;293;28.8;16;canalizada
+F0629;P0784;Fazenda Bela Vista I;vaca;convencional;TI0107;-19.929115;-43.580495;284;47.7;20;balde ao pe
+F0630;P0592;Fazenda Esperanca II;vaca;convencional;TI0108;-19.975202;-44.045089;743;70.3;41;balde ao pe
+F0631;P0544;Fazenda Monte Alto I;vaca;convencional;TI0109;-19.298911;-43.952933;739;70.1;53;canalizada
+F0632;P0028;Fazenda Monte Alto I;vaca;convencional;TI0110;-19.36344;-44.252002;203;23.8;16;sala de ordenha
+F0633;P0407;Fazenda Monte Alto II;vaca;convencional;TI0111;-19.361623;-44.161133;853;80.1;48;canalizada
+F0634;P0689;Fazenda Bela Vista I;vaca;convencional;TI0112;-19.941857;-44.441818;150;24.8;9;sala de ordenha
+F0635;P0484;Fazenda Santa Rita III;vaca;convencional;TI0113;-20.040149;-43.922422;105;17.1;6;balde ao pe
+F0636;P0731;Sitio do Vale III;vaca;convencional;TI0114;-20.599787;-44.067636;370;55.3;20;canalizada
+F0637;P0720;Fazenda Esperanca III;vaca;convencional;TI0115;-19.875699;-44.053583;817;68.2;49;canalizada
+F0638;P0494;Fazenda Bela Vista III;vaca;convencional;TI0116;-19.923803;-44.49595;571;61.7;48;sala de ordenha
+F0639;P0547;Fazenda Bela Vista III;vaca;convencional;TI0117;-19.65004;-43.83907;779;77.6;48;balde ao pe
+F0640;P0467;Sitio Aurora II;vaca;organico;TI0118;-19.320535;-43.778744;255;41.7;18;sala de ordenha
+F0641;P0089;Sitio do Vale III;vaca;convencional;TI0119;-19.629003;-44.412872;710;73.6;54;balde ao pe
+F0642;P0006;Sitio Aurora III;vaca;organico;TI0120;-20.13993;-43.995999;106;43.2;8;sala de ordenha
+F0643;P0774;Fazenda Bela Vista I;cabra;convencional;TI0121;-20.048631;-43.958859;854;58.6;56;canalizada
+F0644;P0240;Fazenda Monte Alto I;vaca;convencional;TI0122;-19.384589;-44.338277;327;36.8;26;sala de ordenha
+F0645;P0563;Sitio Boa Vista I;vaca;convencional;TI0123;-19.419356;-43.754144;451;61.8;27;balde ao pe
+F0646;P0386;Sitio Agua Limpa III;vaca;organico;TI0124;-20.438762;-44.035634;732;50.4;52;balde ao pe
+F0647;P0689;Fazenda Palmeiras II;vaca;convencional;TI0125;-19.435375;-43.917623;301;30.9;25;canalizada
+F0648;P0188;Fazenda Bela Vista I;vaca;convencional;TI0126;-19.854367;-44.233432;720;63.8;41;sala de ordenha
+F0649;P0210;Fazenda Monte Alto III;bufala;convencional;TI0127;-20.255223;-44.890205;212;36.5;11;sala de ordenha
+F0650;P0342;Sitio Boa Vista I;vaca;convencional;TI0128;-19.705268;-43.714637;671;46.2;41;sala de ordenha
+F0651;P0382;Sitio Boa Vista II;vaca;convencional;TI0129;-20.154123;-44.103532;576;52.0;40;balde ao pe
+F0652;P0405;Sitio Aurora III;vaca;convencional;TI0130;-19.26351;-44.231829;466;32.1;39;sala de ordenha
+F0653;P0214;Sitio Tres Irmaos II;vaca;convencional;TI0131;-20.183481;-44.656835;455;57.7;28;balde ao pe
+F0654;P0086;Fazenda Palmeiras III;vaca;convencional;TI0132;-20.055523;-44.87367;877;59.4;49;canalizada
+F0655;P0601;Fazenda Monte Alto II;vaca;convencional;TI0133;-20.445577;-43.913689;688;72.3;48;canalizada
+F0656;P0645;Sitio do Vale III;vaca;convencional;TI0134;-19.244085;-44.610982;243;38.5;16;balde ao pe
+F0657;P0667;Sitio Tres Irmaos II;vaca;convencional;TI0135;-20.064596;-43.768781;850;85.8;72;balde ao pe
+F0658;P0521;Sitio do Vale II;vaca;convencional;TI0136;-19.983636;-44.823796;65;37.6;6;balde ao pe
+F0659;P0120;Fazenda Esperanca III;vaca;convencional;TI0137;-19.613361;-43.60056;818;50.5;70;sala de ordenha
+F0660;P0660;Fazenda Sao Jose I;vaca;convencional;TI0138;-19.290607;-44.676921;871;49.4;58;sala de ordenha
+F0661;P0729;Sitio do Vale II;vaca;convencional;TI0139;-19.708671;-43.538931;106;44.6;7;sala de ordenha
+F0662;P0709;Fazenda Sao Jose I;vaca;convencional;TI0140;-20.079986;-44.845039;163;47.9;10;sala de ordenha
+F0663;P0637;Fazenda Santa Rita III;vaca;convencional;TI0141;-20.350777;-44.620885;551;56.9;33;balde ao pe
+F0664;P0073;Fazenda Santa Rita II;vaca;convencional;TI0142;-20.128449;-43.717601;891;89.0;54;balde ao pe
+F0665;P0343;Fazenda Bela Vista II;vaca;convencional;TI0143;-19.232121;-44.711185;359;56.3;31;canalizada
+F0666;P0121;Sitio Boa Vista II;vaca;convencional;TI0144;-20.573755;-43.675008;618;36.6;38;balde ao pe
+F0667;P0660;Sitio Boa Vista II;vaca;convencional;TI0145;-19.647965;-44.292176;871;77.9;52;sala de ordenha
+F0668;P0474;Sitio Aurora I;vaca;convencional;TI0146;-19.814611;-43.936381;62;15.5;6;canalizada
+F0669;P0735;Fazenda Bela Vista II;vaca;convencional;TI0147;-19.464755;-44.495485;861;71.4;76;canalizada
+F0670;P0130;Sitio Agua Limpa III;vaca;convencional;TI0148;-20.136761;-44.295767;188;24.7;12;canalizada
+F0671;P0514;Fazenda Monte Alto II;vaca;convencional;TI0149;-20.461486;-44.637134;316;44.8;24;canalizada
+F0672;P0771;Fazenda Santa Rita I;vaca;convencional;TI0150;-19.68037;-43.543669;829;71.7;50;sala de ordenha
+F0673;P0513;Fazenda Sao Jose III;vaca;convencional;TI0151;-19.77821;-43.529152;879;77.9;46;canalizada
+F0674;P0187;Sitio Agua Limpa II;vaca;convencional;TI0152;-19.31219;-44.850734;317;29.1;28;canalizada
+F0675;P0265;Fazenda Bela Vista I;vaca;convencional;TI0153;-20.032328;-44.676947;337;45.3;18;canalizada
+F0676;P0634;Sitio Tres Irmaos I;vaca;convencional;TI0154;-19.62493;-44.849406;660;66.1;59;sala de ordenha
+F0677;P0606;Fazenda Santa Rita III;vaca;convencional;TI0155;-20.086787;-43.989941;690;57.1;44;canalizada
+F0678;P0018;Fazenda Santa Rita I;vaca;convencional;TI0156;-19.89082;-44.409413;417;35.4;25;sala de ordenha
+F0679;P0306;Fazenda Sao Jose II;vaca;convencional;TI0157;-19.248556;-44.6303;731;80.0;58;canalizada
+F0680;P0514;Fazenda Santa Rita I;vaca;convencional;TI0158;-19.389136;-43.789507;720;49.0;56;sala de ordenha
+F0681;P0503;Sitio Agua Limpa III;vaca;convencional;TI0159;-20.10486;-44.60846;434;60.9;32;balde ao pe
+F0682;P0126;Fazenda Bela Vista II;vaca;convencional;TI0160;-19.993638;-43.885476;586;43.6;44;sala de ordenha
+F0683;P0125;Sitio Recanto I;vaca;convencional;TI0161;-19.214261;-43.627694;163;18.2;9;canalizada
+F0684;P0326;Fazenda Monte Alto III;vaca;organico;TI0162;-19.629684;-44.266817;746;70.0;51;canalizada
+F0685;P0357;Fazenda Monte Alto II;vaca;convencional;TI0163;-19.651996;-44.450652;419;30.9;24;balde ao pe
+F0686;P0155;Sitio Aurora II;vaca;convencional;TI0164;-20.168978;-43.660919;686;58.2;61;canalizada
+F0687;P0766;Fazenda Sao Jose I;vaca;convencional;TI0165;-19.257454;-43.733934;702;61.7;63;sala de ordenha
+F0688;P0288;Fazenda Palmeiras III;bufala;convencional;TI0166;-19.363658;-44.712006;493;29.5;43;balde ao pe
+F0689;P0084;Sitio Boa Vista III;vaca;convencional;TI0167;-19.359754;-44.670035;795;57.5;51;balde ao pe
+F0690;P0706;Fazenda Esperanca III;vaca;convencional;TI0168;-19.957775;-44.291168;86;23.7;6;balde ao pe
+F0691;P0705;Sitio do Vale III;vaca;convencional;TI0169;-20.487516;-43.555669;130;43.7;10;sala de ordenha
+F0692;P0511;Fazenda Esperanca III;cabra;convencional;TI0170;-19.757946;-44.883431;70;27.9;6;canalizada
+F0693;P0033;Sitio Aurora III;vaca;convencional;TI0171;-19.851475;-43.879656;659;69.6;54;sala de ordenha
+F0694;P0317;Sitio do Vale II;vaca;convencional;TI0172;-20.512711;-44.197337;146;40.9;9;canalizada
+F0695;P0350;Fazenda Palmeiras I;vaca;convencional;TI0173;-19.948006;-44.318359;89;14.1;6;sala de ordenha
+F0696;P0110;Fazenda Esperanca I;vaca;organico;TI0174;-20.19867;-44.222328;689;56.8;53;canalizada
+F0697;P0800;Fazenda Sao Jose I;cabra;convencional;TI0175;-19.721825;-44.813629;595;40.9;45;canalizada
+F0698;P0752;Fazenda Palmeiras III;cabra;convencional;TI0176;-20.426735;-44.874219;527;44.2;33;sala de ordenha
+F0699;P0751;Sitio Tres Irmaos I;cabra;organico;TI0177;-20.557118;-43.684175;223;23.2;13;sala de ordenha
+F0700;P0609;Fazenda Esperanca II;vaca;convencional;TI0178;-19.627092;-44.019076;188;19.3;10;canalizada
+F0701;P0684;Sitio do Vale III;vaca;organico;TI0179;-20.577097;-44.310132;84;14.8;6;balde ao pe
+F0702;P0379;Sitio Tres Irmaos II;vaca;convencional;TI0180;-20.22273;-44.703556;313;37.7;23;balde ao pe
+F0703;P0450;Sitio Boa Vista III;vaca;convencional;TI0181;-20.349535;-44.676248;899;90.6;54;balde ao pe
+F0704;P0254;Fazenda Palmeiras II;cabra;convencional;TI0182;-20.146063;-44.881037;647;47.1;42;balde ao pe
+F0705;P0404;Fazenda Santa Rita III;vaca;convencional;TI0183;-19.525405;-44.341012;155;40.7;12;balde ao pe
+F0706;P0458;Sitio Boa Vista I;vaca;convencional;TI0184;-19.258301;-43.951897;401;49.5;34;canalizada
+F0707;P0413;Fazenda Sao Jose III;vaca;convencional;TI0185;-19.846136;-43.79866;477;58.8;27;canalizada
+F0708;P0613;Fazenda Santa Rita III;vaca;convencional;TI0186;-19.56398;-44.780805;391;31.2;28;canalizada
+F0709;P0186;Fazenda Monte Alto III;vaca;convencional;TI0187;-19.954941;-43.887592;679;57.7;42;canalizada
+F0710;P0454;Sitio Aurora III;vaca;convencional;TI0188;-20.21616;-43.778132;702;67.3;47;canalizada
+F0711;P0064;Fazenda Sao Jose I;vaca;convencional;TI0189;-19.966376;-44.758533;255;35.9;21;canalizada
+F0712;P0517;Fazenda Santa Rita II;bufala;convencional;TI0190;-20.245177;-44.293572;326;53.1;27;balde ao pe
+F0713;P0178;Sitio Aurora II;vaca;convencional;TI0191;-19.411613;-44.808786;835;72.7;54;sala de ordenha
+F0714;P0716;Sitio Recanto III;vaca;convencional;TI0192;-19.671697;-44.710181;763;87.7;42;sala de ordenha
+F0715;P0756;Sitio Aurora II;vaca;convencional;TI0193;-20.276677;-43.941301;642;51.2;52;sala de ordenha
+F0716;P0597;Sitio Boa Vista II;vaca;convencional;TI0194;-19.909727;-44.138402;395;34.6;26;sala de ordenha
+F0717;P0145;Fazenda Sao Jose II;vaca;organico;TI0195;-20.12905;-43.908486;135;42.1;8;canalizada
+F0718;P0589;Fazenda Esperanca I;vaca;convencional;TI0196;-19.250342;-44.187156;312;58.9;16;balde ao pe
+F0719;P0201;Sitio Boa Vista I;vaca;convencional;TI0197;-19.645707;-43.686483;71;21.8;6;sala de ordenha
+F0720;P0612;Sitio Boa Vista III;vaca;convencional;TI0198;-19.441107;-44.425942;574;59.2;36;sala de ordenha
+F0721;P0335;Sitio Agua Limpa II;vaca;convencional;TI0199;-19.254343;-44.65715;152;21.4;11;canalizada
+F0722;P0754;Fazenda Bela Vista III;vaca;convencional;TI0200;-19.380335;-43.921433;86;35.0;6;balde ao pe
+F0723;P0657;Sitio Recanto III;vaca;convencional;TI0201;-20.315796;-43.963089;60;15.7;6;sala de ordenha
+F0724;P0039;Fazenda Santa Rita I;vaca;convencional;TI0202;-19.799796;-44.879227;656;77.8;57;sala de ordenha
+F0725;P0646;Sitio Tres Irmaos III;vaca;convencional;TI0203;-20.17861;-44.641582;280;34.4;15;balde ao pe
+F0726;P0017;Sitio Boa Vista I;vaca;organico;TI0204;-19.669454;-44.801736;512;71.1;31;canalizada
+F0727;P0425;Sitio Agua Limpa II;cabra;convencional;TI0205;-19.63718;-44.496486;791;73.0;51;canalizada
+F0728;P0047;Fazenda Santa Rita I;vaca;convencional;TI0206;-19.241408;-44.268536;891;64.0;53;sala de ordenha
+F0729;P0539;Fazenda Sao Jose II;vaca;convencional;TI0207;-19.753785;-44.086235;735;65.8;52;balde ao pe
+F0730;P0312;Sitio Agua Limpa I;vaca;convencional;TI0208;-19.647697;-44.038706;475;70.6;37;sala de ordenha
+F0731;P0172;Fazenda Monte Alto I;vaca;convencional;TI0209;-20.051457;-44.403015;341;55.2;23;sala de ordenha
+F0732;P0706;Fazenda Esperanca III;vaca;convencional;TI0210;-20.571379;-44.610107;235;47.3;19;balde ao pe
+F0733;P0504;Fazenda Palmeiras I;vaca;convencional;TI0211;-19.782986;-43.904154;484;36.3;27;sala de ordenha
+F0734;P0199;Sitio Agua Limpa III;vaca;convencional;TI0212;-19.926608;-43.630269;523;46.2;38;canalizada
+F0735;P0584;Sitio Agua Limpa II;vaca;convencional;TI0213;-20.350291;-44.665763;896;63.7;80;canalizada
+F0736;P0441;Fazenda Palmeiras III;vaca;convencional;TI0214;-19.711175;-43.840015;192;36.3;11;balde ao pe
+F0737;P0499;Sitio Aurora III;vaca;organico;TI0215;-20.379513;-43.535069;368;27.3;19;balde ao pe
+F0738;P0206;Fazenda Santa Rita II;vaca;convencional;TI0216;-20.591586;-43.693094;109;21.3;6;canalizada
+F0739;P0189;Fazenda Bela Vista I;cabra;convencional;TI0217;-19.225392;-43.688543;826;53.3;44;balde ao pe
+F0740;P0180;Fazenda Bela Vista I;vaca;organico;TI0218;-20.052537;-43.943212;356;44.4;23;canalizada
+F0741;P0310;Fazenda Sao Jose III;cabra;convencional;TI0219;-19.674721;-43.731256;92;23.3;7;sala de ordenha
+F0742;P0591;Sitio Agua Limpa II;bufala;convencional;TI0220;-19.895563;-44.588218;254;37.8;15;sala de ordenha
+F0743;P0360;Fazenda Palmeiras III;vaca;convencional;TI0221;-19.972477;-44.659299;889;61.7;76;balde ao pe
+F0744;P0053;Sitio Aurora III;vaca;convencional;TI0222;-20.224932;-44.180723;177;44.3;9;sala de ordenha
+F0745;P0182;Sitio Aurora II;bufala;convencional;TI0223;-19.869486;-43.975499;297;52.6;20;canalizada
+F0746;P0799;Fazenda Palmeiras II;vaca;organico;TI0224;-19.693946;-44.839054;896;78.9;57;canalizada
+F0747;P0247;Fazenda Santa Rita II;vaca;convencional;TI0225;-20.570896;-44.184325;199;44.6;14;balde ao pe
+F0748;P0066;Fazenda Esperanca III;vaca;convencional;TI0226;-20.454123;-43.653629;132;24.9;9;canalizada
+F0749;P0158;Sitio do Vale III;vaca;convencional;TI0227;-20.170042;-43.760547;794;72.3;50;canalizada
+F0750;P0453;Fazenda Santa Rita I;vaca;convencional;TI0228;-19.74089;-43.668819;110;16.2;6;sala de ordenha
+F0751;P0313;Fazenda Palmeiras II;vaca;convencional;TI0229;-19.922137;-43.570091;505;43.8;34;sala de ordenha
+F0752;P0667;Fazenda Monte Alto I;vaca;convencional;TI0230;-20.527425;-43.582122;355;33.0;24;sala de ordenha
+F0753;P0068;Fazenda Sao Jose I;vaca;convencional;TI0231;-20.592346;-44.715519;223;24.5;17;sala de ordenha
+F0754;P0658;Fazenda Esperanca II;vaca;convencional;TI0232;-20.083384;-44.09656;269;42.9;16;sala de ordenha
+F0755;P0684;Fazenda Santa Rita II;vaca;convencional;TI0233;-19.342408;-44.125723;552;49.7;43;canalizada
+F0756;P0670;Fazenda Santa Rita II;vaca;convencional;TI0234;-19.513251;-44.75784;504;43.4;38;canalizada
+F0757;P0177;Fazenda Esperanca II;vaca;convencional;TI0235;-19.934828;-43.976417;375;54.9;31;canalizada
+F0758;P0433;Sitio Recanto III;vaca;convencional;TI0236;-20.36274;-43.770159;643;55.9;45;sala de ordenha
+F0759;P0617;Sitio do Vale II;vaca;convencional;TI0237;-19.329384;-44.217766;228;50.0;13;sala de ordenha
+F0760;P0622;Sitio Tres Irmaos I;vaca;convencional;TI0238;-19.781833;-44.08819;256;53.5;22;canalizada
+F0761;P0136;Sitio Agua Limpa II;vaca;convencional;TI0239;-19.213475;-43.701081;656;73.6;43;canalizada
+F0762;P0194;Sitio Boa Vista II;vaca;convencional;TI0240;-19.42227;-44.070979;81;39.7;6;canalizada
+F0763;P0374;Sitio Boa Vista II;vaca;convencional;TI0241;-19.31058;-44.558973;467;43.0;26;sala de ordenha
+F0764;P0164;Fazenda Esperanca I;vaca;convencional;TI0242;-19.7199;-44.89526;637;70.6;55;sala de ordenha
+F0765;P0317;Sitio Agua Limpa I;vaca;convencional;TI0243;-19.352595;-44.330163;239;47.5;15;canalizada
+F0766;P0023;Fazenda Sao Jose III;vaca;convencional;TI0244;-20.494473;-44.616688;271;49.0;16;balde ao pe
+F0767;P0124;Fazenda Esperanca II;vaca;organico;TI0245;-19.659504;-44.152401;191;24.7;14;balde ao pe
+F0768;P0213;Fazenda Palmeiras I;vaca;convencional;TI0246;-19.799572;-44.628086;602;64.0;33;canalizada
+F0769;P0076;Fazenda Sao Jose II;vaca;organico;TI0247;-19.911454;-43.735456;67;18.8;6;balde ao pe
+F0770;P0137;Sitio Tres Irmaos I;vaca;organico;TI0248;-19.742402;-44.891706;108;41.7;6;sala de ordenha
+F0771;P0173;Fazenda Monte Alto III;vaca;convencional;TI0249;-19.76061;-44.012957;612;61.2;49;sala de ordenha
+F0772;P0348;Sitio Recanto III;vaca;convencional;TI0250;-20.471131;-44.462944;838;75.9;59;sala de ordenha
+F0773;P0380;Sitio Agua Limpa III;vaca;convencional;TI0251;-20.420374;-44.698469;819;72.8;60;sala de ordenha
+F0774;P0487;Fazenda Sao Jose II;vaca;convencional;TI0252;-20.217887;-43.560816;619;62.2;34;canalizada
+F0775;P0583;Fazenda Esperanca III;vaca;convencional;TI0253;-19.517202;-44.122056;376;56.2;24;canalizada
+F0776;P0553;Fazenda Sao Jose II;vaca;convencional;TI0254;-20.021449;-44.511078;97;26.5;8;balde ao pe
+F0777;P0138;Sitio Tres Irmaos III;bufala;convencional;TI0255;-19.5791;-43.904054;414;36.2;27;balde ao pe
+F0778;P0728;Fazenda Sao Jose I;vaca;convencional;TI0256;-19.656637;-44.811882;603;53.8;36;canalizada
+F0779;P0108;Fazenda Santa Rita I;vaca;convencional;TI0257;-19.688425;-44.018096;665;50.4;54;canalizada
+F0780;P0095;Sitio Aurora I;vaca;convencional;TI0258;-19.360508;-44.730955;216;32.2;13;canalizada
+F0781;P0520;Fazenda Monte Alto I;vaca;convencional;TI0259;-20.565228;-44.514716;815;70.1;71;canalizada
+F0782;P0557;Sitio Recanto I;vaca;organico;TI0260;-20.588804;-43.592474;661;61.2;51;canalizada
+F0783;P0330;Sitio do Vale II;vaca;convencional;TI0261;-19.589438;-44.448789;132;40.6;11;canalizada
+F0784;P0287;Sitio Boa Vista III;vaca;organico;TI0262;-19.313277;-44.724263;411;52.4;22;canalizada
+F0785;P0524;Sitio Agua Limpa II;vaca;organico;TI0263;-20.184593;-44.131098;536;45.5;35;canalizada
+F0786;P0354;Sitio Aurora I;vaca;convencional;TI0264;-19.963578;-43.53632;790;49.4;63;canalizada
+F0787;P0088;Sitio Agua Limpa I;vaca;organico;TI0265;-19.523047;-44.74809;635;64.6;37;sala de ordenha
+F0788;P0434;Sitio do Vale III;vaca;convencional;TI0266;-19.22329;-44.521458;603;51.9;50;canalizada
+F0789;P0227;Fazenda Esperanca I;vaca;convencional;TI0267;-20.078529;-43.585154;212;36.4;18;balde ao pe
+F0790;P0333;Fazenda Sao Jose I;vaca;convencional;TI0268;-20.230937;-43.988017;845;57.5;66;canalizada
+F0791;P0505;Sitio do Vale III;vaca;convencional;TI0269;-19.831391;-44.745019;320;31.5;19;balde ao pe
+F0792;P0453;Sitio do Vale I;vaca;convencional;TI0270;-20.542881;-44.66716;437;51.3;30;sala de ordenha
+F0793;P0726;Fazenda Bela Vista II;vaca;convencional;TI0271;-19.949646;-44.860339;74;21.5;6;canalizada
+F0794;P0193;Fazenda Sao Jose II;vaca;convencional;TI0272;-19.390442;-44.614817;565;49.1;34;sala de ordenha
+F0795;P0700;Sitio Boa Vista III;vaca;organico;TI0273;-20.526268;-44.504595;531;63.8;36;canalizada
+F0796;P0133;Fazenda Esperanca III;vaca;convencional;TI0274;-19.876367;-44.00507;844;69.3;50;canalizada
+F0797;P0468;Fazenda Palmeiras I;cabra;organico;TI0275;-20.270604;-44.852991;761;68.6;42;balde ao pe
+F0798;P0635;Sitio Agua Limpa III;vaca;convencional;TI0276;-20.560516;-44.584204;891;68.2;54;canalizada
+F0799;P0304;Fazenda Palmeiras III;vaca;convencional;TI0277;-19.771233;-44.729412;296;49.0;22;balde ao pe
+F0800;P0590;Fazenda Bela Vista III;vaca;convencional;TI0278;-19.874903;-43.571125;210;49.3;12;canalizada
+F0801;P0331;Sitio do Vale II;vaca;organico;TI0279;-20.460154;-44.38955;856;45.1;49;sala de ordenha
+F0802;P0499;Sitio do Vale III;vaca;convencional;TI0280;-20.294598;-43.6558;735;68.5;56;sala de ordenha
+F0803;P0318;Fazenda Monte Alto III;vaca;convencional;TI0281;-20.097722;-43.858638;635;67.1;49;canalizada
+F0804;P0600;Sitio Aurora I;vaca;convencional;TI0282;-19.959548;-43.617477;467;57.6;30;canalizada
+F0805;P0782;Sitio Recanto III;vaca;organico;TI0283;-20.059473;-43.519773;336;59.8;18;canalizada
+F0806;P0599;Fazenda Esperanca I;vaca;convencional;TI0284;-19.912541;-44.693659;600;53.7;31;sala de ordenha
+F0807;P0260;Fazenda Santa Rita III;vaca;convencional;TI0285;-20.443252;-43.527743;858;49.1;48;balde ao pe
+F0808;P0004;Fazenda Santa Rita III;vaca;convencional;TI0286;-20.174005;-44.599097;91;37.5;6;canalizada
+F0809;P0765;Sitio Tres Irmaos II;vaca;convencional;TI0287;-19.734737;-43.84788;647;56.2;49;sala de ordenha
+F0810;P0496;Sitio Recanto II;vaca;convencional;TI0288;-20.577215;-43.959364;118;13.1;10;balde ao pe
+F0811;P0442;Sitio do Vale I;vaca;convencional;TI0289;-19.402328;-44.270533;740;61.4;42;sala de ordenha
+F0812;P0545;Sitio Boa Vista I;vaca;organico;TI0290;-20.122309;-43.986333;680;68.1;54;sala de ordenha
+F0813;P0065;Sitio Tres Irmaos III;vaca;organico;TI0291;-19.636497;-44.233069;443;48.4;33;canalizada
+F0814;P0565;Fazenda Monte Alto I;vaca;convencional;TI0292;-20.135351;-44.6763;345;34.9;23;canalizada
+F0815;P0259;Sitio Boa Vista II;bufala;convencional;TI0293;-19.850951;-43.695112;488;55.1;39;sala de ordenha
+F0816;P0704;Sitio Tres Irmaos III;vaca;organico;TI0294;-20.046526;-44.481721;725;82.0;60;balde ao pe
+F0817;P0560;Fazenda Palmeiras II;vaca;convencional;TI0295;-20.123788;-44.37158;642;74.1;36;sala de ordenha
+F0818;P0056;Fazenda Esperanca III;vaca;convencional;TI0296;-20.183754;-43.994301;557;46.6;40;balde ao pe
+F0819;P0059;Fazenda Palmeiras II;vaca;convencional;TI0297;-20.090164;-44.241668;895;84.8;72;sala de ordenha
+F0820;P0454;Fazenda Sao Jose II;vaca;convencional;TI0298;-19.513982;-44.146615;517;56.4;33;canalizada
+F0821;P0373;Fazenda Monte Alto II;vaca;convencional;TI0299;-19.209318;-44.658234;102;35.7;6;canalizada
+F0822;P0295;Fazenda Palmeiras I;vaca;organico;TI0300;-19.407194;-44.41348;319;35.6;21;balde ao pe
+F0823;P0487;Fazenda Esperanca II;vaca;convencional;TI0301;-19.373663;-43.558708;399;31.9;22;balde ao pe
+F0824;P0558;Sitio Recanto II;vaca;convencional;TI0302;-20.453576;-43.503166;187;25.9;13;canalizada
+F0825;P0644;Fazenda Palmeiras III;vaca;convencional;TI0303;-19.669145;-43.719699;219;34.0;19;balde ao pe
+F0826;P0678;Fazenda Sao Jose III;vaca;convencional;TI0304;-20.144613;-44.153625;301;38.7;16;balde ao pe
+F0827;P0577;Fazenda Bela Vista I;vaca;organico;TI0305;-20.579778;-43.906908;408;32.6;22;balde ao pe
+F0828;P0176;Fazenda Santa Rita III;bufala;convencional;TI0306;-20.028388;-44.161681;710;56.7;47;canalizada
+F0829;P0222;Sitio Aurora I;vaca;convencional;TI0307;-19.543932;-44.225571;295;33.3;23;sala de ordenha
+F0830;P0099;Fazenda Bela Vista II;vaca;convencional;TI0308;-19.201585;-43.860431;357;51.7;27;balde ao pe
+F0831;P0008;Sitio Boa Vista III;vaca;convencional;TI0309;-19.702046;-43.704992;827;81.6;53;canalizada
+F0832;P0466;Sitio Tres Irmaos II;vaca;convencional;TI0310;-19.743293;-43.910014;237;43.3;19;sala de ordenha
+F0833;P0264;Sitio do Vale II;vaca;convencional;TI0311;-19.69402;-44.114423;592;40.1;32;balde ao pe
+F0834;P0484;Fazenda Sao Jose III;vaca;organico;TI0312;-19.907932;-44.196941;433;37.4;27;sala de ordenha
+F0835;P0417;Sitio Agua Limpa I;vaca;convencional;TI0313;-19.755259;-44.055216;514;56.0;33;balde ao pe
+F0836;P0152;Sitio Recanto I;vaca;convencional;TI0314;-19.398418;-43.996609;209;21.1;14;canalizada
+F0837;P0316;Fazenda Sao Jose III;vaca;convencional;TI0315;-20.090486;-44.535733;842;59.3;50;sala de ordenha
+F0838;P0651;Sitio Tres Irmaos II;vaca;convencional;TI0316;-19.747495;-43.983137;455;42.8;32;canalizada
+F0839;P0611;Sitio do Vale II;vaca;convencional;TI0317;-19.311171;-44.486752;351;23.9;20;sala de ordenha
+F0840;P0165;Sitio do Vale I;vaca;convencional;TI0318;-19.698028;-44.741827;719;67.3;44;balde ao pe
+F0841;P0200;Sitio Recanto II;vaca;convencional;TI0319;-19.505707;-44.054617;700;44.5;41;sala de ordenha
+F0842;P0383;Sitio Boa Vista II;vaca;convencional;TI0320;-20.099751;-44.632928;276;37.3;23;balde ao pe
+F0843;P0381;Sitio Agua Limpa I;vaca;convencional;TI0321;-19.448284;-44.460794;441;49.4;25;canalizada
+F0844;P0202;Sitio Agua Limpa II;vaca;convencional;TI0322;-20.46694;-43.782825;459;40.1;39;balde ao pe
+F0845;P0623;Sitio Recanto I;vaca;convencional;TI0323;-19.663841;-44.273762;496;34.7;35;sala de ordenha
+F0846;P0465;Fazenda Santa Rita I;vaca;convencional;TI0324;-20.123911;-44.409737;461;40.6;35;balde ao pe
+F0847;P0227;Sitio Aurora III;vaca;convencional;TI0325;-19.909741;-44.177607;741;47.4;47;balde ao pe
+F0848;P0616;Fazenda Esperanca II;vaca;convencional;TI0326;-20.068675;-43.946985;886;78.6;67;canalizada
+F0849;P0780;Fazenda Bela Vista I;vaca;convencional;TI0327;-20.228802;-44.306382;794;68.3;65;canalizada
+F0850;P0655;Fazenda Palmeiras II;vaca;convencional;TI0328;-19.57958;-44.465175;501;48.2;36;canalizada
+F0851;P0209;Fazenda Sao Jose III;cabra;convencional;TI0329;-19.318164;-44.441334;151;22.8;12;sala de ordenha
+F0852;P0232;Fazenda Bela Vista I;vaca;convencional;TI0330;-19.80842;-43.661425;489;32.1;35;sala de ordenha
+F0853;P0235;Sitio Aurora III;vaca;convencional;TI0331;-19.598573;-44.452512;733;65.8;39;balde ao pe
+F0854;P0567;Fazenda Palmeiras I;vaca;convencional;TI0332;-19.582635;-44.446902;287;48.3;17;sala de ordenha
+F0855;P0094;Fazenda Esperanca II;vaca;convencional;TI0333;-20.354163;-43.901845;305;42.1;20;balde ao pe
+F0856;P0596;Sitio Aurora I;vaca;convencional;TI0334;-19.259622;-44.830981;514;39.6;27;canalizada
+F0857;P0595;Sitio Aurora I;vaca;convencional;TI0335;-19.930037;-44.790646;614;60.9;36;sala de ordenha
+F0858;P0447;Fazenda Palmeiras II;vaca;convencional;TI0336;-20.532104;-44.324578;501;61.3;26;canalizada
+F0859;P0403;Sitio Aurora I;vaca;convencional;TI0337;-19.274237;-44.620647;770;66.3;51;sala de ordenha
+F0860;P0303;Sitio Boa Vista III;vaca;convencional;TI0338;-19.686899;-43.880347;147;39.5;10;canalizada
+F0861;P0624;Fazenda Sao Jose III;vaca;convencional;TI0339;-19.970025;-44.113748;329;45.2;22;sala de ordenha
+F0862;P0029;Fazenda Monte Alto III;vaca;convencional;TI0340;-20.37261;-44.420768;93;21.6;6;canalizada
+F0863;P0580;Sitio Agua Limpa II;vaca;convencional;TI0341;-20.019822;-44.569013;407;44.6;21;canalizada
+F0864;P0060;Fazenda Santa Rita I;vaca;convencional;TI0342;-19.837991;-44.729007;861;56.4;68;sala de ordenha
+F0865;P0101;Fazenda Esperanca III;vaca;convencional;TI0343;-20.356159;-44.239618;591;67.2;37;canalizada
+F0866;P0630;Sitio Aurora III;vaca;organico;TI0344;-19.284804;-43.553596;452;47.9;33;sala de ordenha
+F0867;P0078;Fazenda Palmeiras I;vaca;convencional;TI0345;-20.116469;-44.518936;151;48.0;12;canalizada
+F0868;P0699;Fazenda Monte Alto III;vaca;organico;TI0346;-19.237865;-44.206203;391;55.9;21;sala de ordenha
+F0869;P0618;Sitio Boa Vista III;vaca;convencional;TI0347;-20.241434;-44.482287;624;66.0;37;sala de ordenha
+F0870;P0525;Sitio do Vale III;vaca;convencional;TI0348;-19.386541;-44.638728;739;69.2;47;sala de ordenha
+F0871;P0183;Sitio Recanto II;vaca;convencional;TI0349;-19.368938;-44.675773;657;47.5;45;balde ao pe
+F0872;P0474;Fazenda Palmeiras I;vaca;convencional;TI0350;-19.209255;-44.758749;203;38.4;12;balde ao pe
+F0873;P0098;Sitio Boa Vista II;vaca;convencional;TI0351;-19.600189;-43.912941;850;63.6;45;balde ao pe
+F0874;P0685;Fazenda Palmeiras III;vaca;convencional;TI0352;-19.217493;-43.607391;623;49.2;41;sala de ordenha
+F0875;P0040;Fazenda Bela Vista II;bufala;convencional;TI0353;-19.781473;-44.754775;587;64.6;40;sala de ordenha
+F0876;P0619;Sitio Recanto III;vaca;convencional;TI0354;-19.727354;-43.933231;713;49.5;50;balde ao pe
+F0877;P0587;Sitio Aurora III;vaca;convencional;TI0355;-19.606937;-44.553306;113;37.4;6;sala de ordenha
+F0878;P0569;Fazenda Monte Alto II;vaca;convencional;TI0356;-19.651635;-44.173295;640;62.1;38;canalizada
+F0879;P0679;Sitio do Vale II;vaca;organico;TI0357;-19.995653;-44.109017;851;73.9;47;canalizada
+F0880;P0010;Fazenda Esperanca III;cabra;convencional;TI0358;-19.656993;-44.076001;168;33.0;12;canalizada
+F0881;P0464;Fazenda Palmeiras I;vaca;convencional;TI0359;-19.838159;-44.769984;542;46.0;42;sala de ordenha
+F0882;P0069;Fazenda Santa Rita III;cabra;organico;TI0360;-20.198537;-43.866047;127;17.5;9;canalizada
+F0883;P0536;Fazenda Esperanca III;vaca;convencional;TI0361;-20.431223;-44.3978;529;66.3;34;sala de ordenha
+F0884;P0498;Sitio Recanto III;vaca;convencional;TI0362;-19.466857;-43.540254;444;38.8;31;sala de ordenha
+F0885;P0034;Sitio Agua Limpa I;cabra;organico;TI0363;-20.366355;-43.976852;793;86.0;42;sala de ordenha
+F0886;P0390;Fazenda Monte Alto II;cabra;organico;TI0364;-20.436942;-44.554165;419;44.9;36;canalizada
+F0887;P0692;Fazenda Santa Rita III;vaca;convencional;TI0365;-19.53768;-43.929246;815;69.8;58;canalizada
+F0888;P0785;Fazenda Esperanca II;vaca;organico;TI0366;-20.457412;-43.735438;840;52.8;49;balde ao pe
+F0889;P0111;Sitio Agua Limpa III;vaca;convencional;TI0367;-19.59552;-44.537353;207;39.4;12;sala de ordenha
+F0890;P0687;Sitio Tres Irmaos II;vaca;convencional;TI0368;-19.753773;-43.966835;683;87.0;36;sala de ordenha
+F0891;P0479;Sitio do Vale III;bufala;convencional;TI0369;-19.786014;-44.491193;116;22.1;6;sala de ordenha
+F0892;P0333;Sitio Tres Irmaos III;vaca;convencional;TI0370;-20.070048;-43.630841;295;34.1;21;sala de ordenha
+F0893;P0633;Fazenda Palmeiras I;vaca;organico;TI0371;-19.645256;-43.710005;573;55.1;31;balde ao pe
+F0894;P0131;Sitio Recanto III;vaca;convencional;TI0372;-20.110373;-44.089175;439;28.5;26;balde ao pe
+F0895;P0055;Fazenda Monte Alto I;vaca;convencional;TI0373;-19.88926;-44.293593;410;41.3;27;sala de ordenha
+F0896;P0443;Sitio do Vale II;vaca;convencional;TI0374;-19.992798;-44.032038;221;53.6;15;sala de ordenha
+F0897;P0443;Fazenda Bela Vista III;vaca;convencional;TI0375;-20.548833;-44.082936;118;33.7;7;balde ao pe
+F0898;P0220;Sitio do Vale II;vaca;convencional;TI0376;-20.457217;-44.383282;642;52.7;48;sala de ordenha
+F0899;P0033;Sitio Tres Irmaos I;vaca;convencional;TI0377;-20.311929;-44.392032;871;61.7;71;sala de ordenha
+F0900;P0440;Fazenda Esperanca III;vaca;convencional;TI0378;-19.875928;-43.588996;852;71.3;48;canalizada
+F0901;P0408;Sitio Aurora I;vaca;convencional;TI0379;-19.457462;-44.030008;402;54.7;34;canalizada
+F0902;P0190;Sitio Recanto II;vaca;convencional;TI0380;-20.424503;-44.37655;737;51.4;41;sala de ordenha
+F0903;P0308;Fazenda Santa Rita I;vaca;convencional;TI0381;-20.200319;-44.491802;899;63.3;73;sala de ordenha
+F0904;P0451;Fazenda Bela Vista I;vaca;convencional;TI0382;-19.24512;-44.36985;154;20.0;13;sala de ordenha
+F0905;P0391;Fazenda Palmeiras III;vaca;convencional;TI0383;-20.161719;-43.585438;874;62.9;71;canalizada
+F0906;P0537;Fazenda Santa Rita I;vaca;convencional;TI0384;-20.210221;-44.328948;328;58.1;22;sala de ordenha
+F0907;P0280;Fazenda Palmeiras I;vaca;convencional;TI0385;-19.782046;-44.775218;525;56.9;33;canalizada
+F0908;P0116;Fazenda Santa Rita I;vaca;convencional;TI0386;-20.350649;-44.610178;287;42.3;21;canalizada
+F0909;P0265;Fazenda Palmeiras I;vaca;convencional;TI0387;-19.406249;-44.03241;168;26.5;14;canalizada
+F0910;P0421;Fazenda Santa Rita I;vaca;convencional;TI0388;-19.709996;-44.052282;370;50.7;30;canalizada
+F0911;P0401;Sitio Agua Limpa I;vaca;convencional;TI0389;-20.546614;-44.61844;128;19.9;9;balde ao pe
+F0912;P0404;Sitio Aurora I;vaca;convencional;TI0390;-20.462386;-44.161627;211;51.8;12;sala de ordenha
+F0913;P0630;Sitio do Vale II;vaca;organico;TI0391;-19.222495;-43.934531;457;47.9;37;balde ao pe
+F0914;P0783;Sitio Recanto II;vaca;convencional;TI0392;-19.863938;-43.837406;655;61.7;46;sala de ordenha
+F0915;P0740;Sitio do Vale III;vaca;convencional;TI0393;-19.691924;-44.684618;712;61.1;53;balde ao pe
+F0916;P0650;Fazenda Santa Rita III;vaca;convencional;TI0394;-19.718721;-44.214247;783;69.8;52;canalizada
+F0917;P0300;Sitio Agua Limpa III;vaca;convencional;TI0395;-19.269243;-44.790964;403;41.3;21;canalizada
+F0918;P0517;Fazenda Esperanca III;vaca;convencional;TI0396;-19.358835;-44.541323;478;50.2;31;balde ao pe
+F0919;P0411;Fazenda Esperanca III;vaca;convencional;TI0397;-20.329634;-44.783118;457;38.6;28;balde ao pe
+F0920;P0475;Sitio Tres Irmaos I;vaca;convencional;TI0398;-20.195893;-43.596807;323;48.4;28;canalizada
+F0921;P0626;Fazenda Bela Vista III;vaca;convencional;TI0399;-19.635072;-44.109139;670;44.9;48;balde ao pe
+F0922;P0093;Sitio Recanto I;vaca;convencional;TI0400;-20.352425;-44.763925;860;60.4;59;balde ao pe
+F0923;P0236;Fazenda Sao Jose III;vaca;convencional;TI0401;-20.35721;-44.303869;665;73.4;45;sala de ordenha
+F0924;P0009;Fazenda Palmeiras II;vaca;convencional;TI0402;-20.053508;-43.724381;321;52.7;17;balde ao pe
+F0925;P0140;Sitio Tres Irmaos III;vaca;convencional;TI0403;-19.728076;-43.589542;396;44.9;21;balde ao pe
+F0926;P0077;Fazenda Esperanca II;vaca;convencional;TI0404;-20.498897;-43.899642;700;66.2;41;sala de ordenha
+F0927;P0430;Fazenda Santa Rita I;vaca;organico;TI0405;-20.587364;-44.67804;83;25.0;6;sala de ordenha
+F0928;P0336;Sitio do Vale I;vaca;organico;TI0406;-19.834288;-43.939835;777;71.4;43;canalizada
+F0929;P0362;Sitio Boa Vista II;vaca;convencional;TI0407;-19.92991;-43.510625;744;48.9;52;sala de ordenha
+F0930;P0347;Sitio do Vale III;vaca;organico;TI0408;-19.317769;-44.62767;577;62.2;33;sala de ordenha
+F0931;P0192;Sitio Recanto II;vaca;convencional;TI0409;-19.308583;-44.208378;238;52.4;20;sala de ordenha
+F0932;P0642;Sitio Recanto III;vaca;organico;TI0410;-20.227597;-44.778599;144;44.0;10;sala de ordenha
+F0933;P0391;Sitio Agua Limpa III;vaca;convencional;TI0411;-19.915538;-44.537745;697;74.1;50;canalizada
+F0934;P0414;Sitio Agua Limpa II;vaca;convencional;TI0412;-20.0359;-44.721041;626;67.3;42;balde ao pe
+F0935;P0035;Fazenda Esperanca III;vaca;convencional;TI0413;-20.122342;-44.871376;318;48.1;23;canalizada
+F0936;P0701;Fazenda Monte Alto II;vaca;convencional;TI0414;-19.890435;-44.354942;701;48.7;52;sala de ordenha
+F0937;P0180;Sitio Agua Limpa II;cabra;convencional;TI0415;-20.357733;-44.101187;69;35.8;6;canalizada
+F0938;P0285;Sitio Boa Vista II;vaca;convencional;TI0416;-19.965713;-43.805752;478;34.6;25;canalizada
+F0939;P0730;Fazenda Esperanca III;vaca;convencional;TI0417;-19.778634;-44.409163;621;62.2;51;balde ao pe
+F0940;P0790;Fazenda Palmeiras III;vaca;convencional;TI0418;-19.724989;-44.668603;714;71.7;39;balde ao pe
+F0941;P0123;Sitio do Vale II;vaca;convencional;TI0419;-20.266938;-43.78576;577;71.0;39;canalizada
+F0942;P0166;Sitio Boa Vista II;vaca;convencional;TI0420;-19.654409;-43.842605;193;38.6;11;canalizada
+F0943;P0250;Fazenda Esperanca II;vaca;convencional;TI0421;-19.347798;-44.548279;416;56.9;37;canalizada
+F0944;P0074;Sitio Agua Limpa II;vaca;convencional;TI0422;-19.695861;-43.745541;832;43.1;44;canalizada
+F0945;P0593;Fazenda Monte Alto I;bufala;convencional;TI0423;-19.913871;-44.193666;875;65.5;51;sala de ordenha
+F0946;P0152;Sitio Recanto II;vaca;convencional;TI0424;-19.900541;-43.616723;723;59.3;45;balde ao pe
+F0947;P0019;Fazenda Bela Vista II;vaca;convencional;TI0425;-20.547703;-44.303127;562;39.1;30;balde ao pe
+F0948;P0154;Sitio Aurora III;vaca;convencional;TI0426;-19.821592;-43.936717;306;42.2;24;balde ao pe
+F0949;P0480;Sitio Agua Limpa II;vaca;convencional;TI0427;-19.707189;-43.61641;225;47.6;14;sala de ordenha
+F0950;P0493;Sitio Agua Limpa III;vaca;convencional;TI0428;-19.813145;-43.904104;297;49.2;24;canalizada
+F9000;P9999;Sitio Agua Limpa II;cabra;convencional;TI0415;-20.357733;-44.101187;69;35.8;6;canalizada
+F9001;P9999;Sitio Tres Irmaos II;vaca;convencional;TC047;-20.351026;-44.679603;898;52.7;75;canalizada
+F9002;P9999;Fazenda Monte Alto III;vaca;convencional;TC046;-19.507348;-43.879329;447;59.5;23;canalizada
+F9003;P9999;Fazenda Bela Vista III;vaca;convencional;TI0278;-19.874903;-43.571125;210;49.3;12;canalizada
+F9004;P9999;Fazenda Sao Jose III;vaca;convencional;TC023;-20.447509;-44.612942;74;25.1;6;sala de ordenha
+F9005;P9999;Sitio do Vale III;vaca;organico;TC002;-20.522372;-44.862718;584;37.1;49;canalizada
+F9006;P9999;Sitio Tres Irmaos II;vaca;convencional;TI0008;-20.422199;-43.530653;183;25.7;9;canalizada
+F9007;P9999;Fazenda Bela Vista I;cabra;convencional;TI0121;-20.048631;-43.958859;854;58.6;56;canalizada
+F9008;P9999;Sitio do Vale I;vaca;convencional;TC049;-20.118385;-43.624901;526;72.7;46;canalizada
+F9009;P9999;Sitio Agua Limpa II;cabra;convencional;TI0205;-19.63718;-44.496486;791;73.0;51;canalizada
+F9010;P9999;Fazenda Esperanca II;vaca;convencional;TC053;-19.519839;-44.855026;900;78.5;48;balde ao pe
+F9011;P9999;Sitio Boa Vista III;vaca;convencional;TI0347;-20.241434;-44.482287;624;66.0;37;sala de ordenha

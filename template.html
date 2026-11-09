@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cargas com mistura proibida</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Cargas com mistura proibida<span>Cooperativa de laticínios · Mar–Jun/2026</span></h1>
+  <label class="filtro">Período:
+    <select id="mes"></select>
+  </label>
+</header>
+
+<main>
+  <section style="margin-top:8px">
+    <div class="grid k4" id="kpis"></div>
+  </section>
+
+  <section>
+    <h2>Cargas irregulares</h2>
+    <p class="ajuda">Cada linha possui uma carga que houveram misturas proibidas.</p>
+    <div class="grid g2" style="margin-bottom:16px">
+      <div class="card"><b class="red">Espécies diferentes</b><br>
+        <span class="ajuda">Espécies diferentes geram descarte total. Custo = litros da carga × R$ 2,45.</span></div>
+      <div class="card"><b class="amber">Orgânico com convencional</b><br>
+        <span class="ajuda">Somente o prêmiio da certificação orgânica é perdido. Custo = litros orgânicos × R$ 0,35.</span></div>
+    </div>
+    <div class="card scroll" id="irregulares"></div>
+  </section>
+
+  <section>
+    <h2>Reincidência </h2>
+    <p class="ajuda">Quais caminhões repetem o erro repetidamente.</p>
+    <div class="grid g2">
+      <div class="card"><b>Caminhões por reincidência</b>
+        <div class="scroll" id="caminhoes" style="max-height:340px;overflow-y:auto;margin-top:8px"></div></div>
+      <div class="card"><b>Primeira viagem × segunda viagem</b>
+        <div class="destaque" id="viagemTexto" style="margin-top:10px"></div>
+        <canvas id="gViagem"></canvas></div>
+      <div class="card" style="grid-column:1/-1"><b>Prejuízo por mês (R$)</b>
+        <canvas id="gMes"></canvas></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Consulta de cargas </h2>
+    <p class="ajuda">Consulte cargas e fazendas.</p>
+    <div class="card">
+      <div class="barra">
+        <input type="search" id="buscaCarga" placeholder="Buscar por carga, caminhão, data ou fazenda…">
+        <label><input type="checkbox" id="soIrregular">Irregulares</label>
+      </div>
+      <div class="scroll" id="explorador"></div>
+      <div class="pager"><button id="ant">‹</button><span id="pagInfo"></span><button id="prox">›</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fazendas</h2>
+    <p class="ajuda">Consultar fazendas e suas características.</p>
+    <div class="card scroll" id="combos" style="margin-bottom:16px"></div>
+    <div class="card">
+      <div class="barra"><input type="search" id="buscaFaz" placeholder="Buscar fazenda por código, nome, tanque, espécie ou certificação…"></div>
+      <div class="scroll" id="fazendas"></div>
+      <div class="pager"><button id="antF">‹</button><span id="pagF"></span><button id="proxF">›</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tratamento dos dados</h2>
+    <p class="ajuda">Registros inválidos ficam fora da conta para não criar violações que nunca aconteceram.</p>
+    <div class="card scroll" id="limpeza"></div>
+  </section>
+</main>
+
+<script>
+  /* Dados serão calculados pelo script python */
+  const D = {{ dados_json }};
+  
+  /* Ajustar formatação para ptbr */
+  const brl = v => v.toLocaleString("pt-BR", {style:"currency", currency:"BRL"});
+  const num = v => Math.round(v).toLocaleString("pt-BR");
+  const dt  = s => s.split("-").reverse().join("/");
+  const $   = id => document.getElementById(id);
+  const ROT = {descarte_total:["Espécies diferentes","b-esp"], perda_premio:["Orgânico + convencional","b-pre"]};
+  const ESP = {vaca:"b-vaca", bufala:"b-bufala", cabra:"b-cabra"};
+  const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+  
+  const selo = (esp, cert) =>
+    `<span class="badge ${ESP[esp]}">${cap(esp)}</span> <span class="badge ${cert==="organico"?"b-org":"b-conv"}">${cap(cert)}</span>`;
+  
+  const chipsFazendas = c => `<div class="chips">` + c.fz.map(([i, l]) => {
+    const f = D.fazendas[i];
+    return `<span class="chip">${f.id} · ${f.nome}<br>${selo(f.esp, f.cert)} <small>${num(l)} L</small></span>`;
+  }).join("") + `</div>`;
+  
+  class Paginador {
+    constructor(tam, info, ant, prox, aoMudar){
+      Object.assign(this, {tam, info:$(info), pag:0, total:0});
+      $(ant).onclick  = () => { this.pag--; aoMudar(); };
+      $(prox).onclick = () => { this.pag++; aoMudar(); };
+      this.ant = $(ant); this.prox = $(prox);
+    }
+    fatia(lista){
+      this.total = Math.max(1, Math.ceil(lista.length / this.tam));
+      this.pag = Math.min(Math.max(this.pag, 0), this.total - 1);
+      this.info.textContent = `${lista.length} registros · página ${this.pag+1} de ${this.total}`;
+      this.ant.disabled = this.pag === 0; this.prox.disabled = this.pag >= this.total - 1;
+      return lista.slice(this.pag*this.tam, (this.pag+1)*this.tam);
+    }
+  }
+  
+  let mes = "total";
+  const cargasDoMes = () => D.cargas.filter(c => mes === "total" || c.mes === +mes);
+  const nomeMes = () => mes === "total" ? "todo o período" : D.meses.find(m => m.num === +mes).nome;
+  const pagCargas = new Paginador(15, "pagInfo", "ant", "prox", () => desenharExplorador());
+  const pagFaz = new Paginador(15, "pagF", "antF", "proxF", () => desenharFazendas());
+  let gViagem, gMes;
+  
+  /* Seção de indicadores */
+  function desenharKpis(){
+    const k = D.visoes[mes].kpi;
+    const card = (rot, val, sub, cls="") => `<div class="card kpi"><div class="rot">${rot}</div><div class="val ${cls}">${val}</div><div class="sub">${sub}</div></div>`;
+    $("kpis").innerHTML =
+      card("Cargas irregulares", k.irregulares, `de ${num(k.cargas)} cargas em ${nomeMes()}`) +
+      card("Prejuízo total", brl(k.prejuizo), "soma das duas violações", "red") +
+      card("Espécies diferentes", `${k.esp} cargas`, `${brl(k.prej_esp)} · descarte total`, "red") +
+      card("Orgânico + convencional", `${k.premio} cargas`, `${brl(k.prej_premio)} · perda de prêmio`, "amber") +
+      card("Litros comprometidos", num(k.litros) + " L", "descartados ou pagos como convencional");
+  }
+  
+  /* Seção de cargas irregulares */
+  function desenharIrregulares(){
+    const lista = cargasDoMes().filter(c => c.viol).sort((a,b) => a.data.localeCompare(b.data) || a.id.localeCompare(b.id));
+    if(!lista.length){ $("irregulares").innerHTML = `<div class="vazio">Nenhuma carga irregular neste período.</div>`; return; }
+    $("irregulares").innerHTML = `<table><thead><tr><th>Carga</th><th>Data</th><th>Caminhão</th><th>Viagem</th><th>Violação</th>
+      <th class="n">Litros comprometidos</th><th class="n">Prejuízo</th><th>Fazendas dentro</th></tr></thead><tbody>` +
+      lista.map(c => `<tr><td>${c.id}</td><td>${dt(c.data)}</td><td>${c.cam}</td><td>${c.viagem}ª</td>
+        <td><span class="badge ${ROT[c.viol][1]}">${ROT[c.viol][0]}</span></td>
+        <td class="n">${num(c.comp)}</td><td class="n"><b>${brl(c.prej)}</b></td>
+        <td><details><summary>ver ${c.fz.length} fazendas</summary>${chipsFazendas(c)}</details></td></tr>`).join("") + `</tbody></table>`;
+  }
+  
+  /* Seção de reinicidencias */
+  function desenharReincidencia(){
+    const v = D.visoes[mes];
+    $("caminhoes").innerHTML = v.caminhoes.length ? `<table><thead><tr><th>#</th><th>Caminhão</th><th class="n">Erros</th><th class="n">Cargas</th><th class="n">% erro</th><th class="n">Prejuízo</th></tr></thead><tbody>` +
+      v.caminhoes.map((c,i) => `<tr><td>${i+1}</td><td><b>${c.cam}</b></td><td class="n">${c.erros}</td><td class="n">${c.cargas}</td><td class="n">${c.taxa.toLocaleString("pt-BR")}%</td><td class="n">${brl(c.prejuizo)}</td></tr>`).join("") + `</tbody></table>`
+      : `<div class="vazio">Sem reincidência neste período.</div>`;
+  
+    const [v1, v2] = [1,2].map(n => v.viagens.find(x => x.viagem === n) || {taxa:0, erros:0, cargas:0});
+    const cmp = v2.taxa > v1.taxa ? "erra mais" : v2.taxa < v1.taxa ? "erra menos" : "erra igual";
+    $("viagemTexto").innerHTML = `A <b>2ª viagem ${cmp}</b> que a 1ª: ${v2.taxa.toLocaleString("pt-BR")}% das cargas (${v2.erros} de ${v2.cargas}) contra ${v1.taxa.toLocaleString("pt-BR")}% (${v1.erros} de ${v1.cargas}).`;
+  
+    gViagem && gViagem.destroy();
+    gViagem = new Chart($("gViagem"), {type:"bar",
+      data:{labels:["1ª viagem","2ª viagem"], datasets:[{label:"% de cargas irregulares", data:[v1.taxa, v2.taxa], backgroundColor:["#4c8dff","#f2b24a"]}]},
+      options:{plugins:{legend:{display:false}}, scales:{y:{beginAtZero:true, ticks:{callback:x=>x+"%"}}}}});
+  }
+  
+  function desenharGraficoMeses(){
+    gMes && gMes.destroy();
+    const ms = D.meses.map(m => D.visoes[m.num].kpi);
+    gMes = new Chart($("gMes"), {type:"bar",
+      data:{labels:D.meses.map(m => m.nome), datasets:[
+        {label:"Espécies diferentes", data:ms.map(k=>k.prej_esp), backgroundColor:"#ef5b6b"},
+        {label:"Orgânico + convencional", data:ms.map(k=>k.prej_premio), backgroundColor:"#f2b24a"}]},
+      options:{scales:{x:{stacked:true}, y:{stacked:true, ticks:{callback:x=>"R$ "+num(x)}}},
+               plugins:{tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${brl(c.raw)}`}}}}});
+  }
+  
+  /* Seção de consulta */
+  function desenharExplorador(){
+    const q = $("buscaCarga").value.toLowerCase().trim(), so = $("soIrregular").checked;
+    const lista = cargasDoMes().filter(c => (!so || c.viol) &&
+      (!q || [c.id, c.cam, dt(c.data), ...c.fz.map(([i]) => D.fazendas[i].id + " " + D.fazendas[i].nome)].join(" ").toLowerCase().includes(q)));
+    $("explorador").innerHTML = `<table><thead><tr><th>Carga</th><th>Data</th><th>Caminhão</th><th>Viagem</th><th class="n">Litros</th><th>Situação</th><th>Fazendas</th></tr></thead><tbody>` +
+      pagCargas.fatia(lista).map(c => `<tr><td>${c.id}</td><td>${dt(c.data)}</td><td>${c.cam}</td><td>${c.viagem}ª</td><td class="n">${num(c.litros)}</td>
+        <td>${c.viol ? `<span class="badge ${ROT[c.viol][1]}">${ROT[c.viol][0]}</span>` : `<span class="badge b-ok">Regular</span>`}</td>
+        <td><details><summary>ver ${c.fz.length} fazendas</summary>${chipsFazendas(c)}</details></td></tr>`).join("") + `</tbody></table>`;
+  }
+  
+  /* Seção com fazendas */
+  function desenharCombos(){
+    $("combos").innerHTML = `<table><thead><tr><th>Espécie</th><th>Certificação</th><th class="n">Fazendas</th><th class="n">Tanques</th><th>Quais tanques (fazendas em cada um)</th></tr></thead><tbody>` +
+      D.combos.map(c => `<tr><td><span class="badge ${ESP[c.esp]}">${cap(c.esp)}</span></td>
+        <td><span class="badge ${c.cert==="organico"?"b-org":"b-conv"}">${cap(c.cert)}</span></td>
+        <td class="n"><b>${c.qtd}</b></td><td class="n">${c.tanques.length}</td>
+        <td><details><summary>ver tanques</summary><div class="chips">${c.tanques.map(([t,n]) => `<span class="chip">${t} <small>(${n})</small></span>`).join("")}</div></details></td></tr>`).join("") + `</tbody></table>`;
+  }
+  function desenharFazendas(){
+    const q = $("buscaFaz").value.toLowerCase().trim();
+    const lista = D.fazendas.filter(f => !q || Object.values(f).join(" ").toLowerCase().includes(q));
+    $("fazendas").innerHTML = `<table><thead><tr><th>Código</th><th>Fazenda</th><th>Espécie</th><th>Certificação</th><th>Tanque</th></tr></thead><tbody>` +
+      pagFaz.fatia(lista).map(f => `<tr><td>${f.id}</td><td>${f.nome}</td><td><span class="badge ${ESP[f.esp]}">${cap(f.esp)}</span></td>
+        <td><span class="badge ${f.cert==="organico"?"b-org":"b-conv"}">${cap(f.cert)}</span></td><td>${f.tanque}</td></tr>`).join("") + `</tbody></table>`;
+  }
+  
+  /* Tratamento de dados */
+  function desenharLimpeza(){
+    $("limpeza").innerHTML = `<table><thead><tr><th>Tratamento</th><th class="n">Registros</th></tr></thead><tbody>` +
+      D.limpeza.map(l => `<tr><td>${l.motivo}</td><td class="n">${num(l.qtd)}</td></tr>`).join("") + `</tbody></table>`;
+  }
+  
+  /* Seletor de mês */
+  function atualizar(){
+    pagCargas.pag = 0;
+    desenharKpis(); desenharIrregulares(); desenharReincidencia(); desenharExplorador();
+  }
+  $("mes").innerHTML = `<option value="total">Total (Mar–Jun)</option>` + D.meses.map(m => `<option value="${m.num}">${m.nome}</option>`).join("");
+  $("mes").onchange = e => { mes = e.target.value; atualizar(); };
+  $("buscaCarga").oninput = () => { pagCargas.pag = 0; desenharExplorador(); };
+  $("soIrregular").onchange = () => { pagCargas.pag = 0; desenharExplorador(); };
+  $("buscaFaz").oninput = () => { pagFaz.pag = 0; desenharFazendas(); };
+  
+  atualizar(); desenharGraficoMeses(); desenharCombos(); desenharFazendas(); desenharLimpeza();
+</script>
+</body>
+</html>
