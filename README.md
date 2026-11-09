@@ -1,5 +1,5 @@
 # analise-fazenda
-Trabalho de faculdade para analsze de dados de uma fazenda
+Trabalho de faculdade para analise de dados de uma fazenda
 
 # Executando o script
 
