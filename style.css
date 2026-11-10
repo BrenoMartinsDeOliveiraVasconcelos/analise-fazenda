@@ -280,6 +280,33 @@ h2::before {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.resumo-visual {
+  scroll-margin-top: 90px;
+}
+
+.chart-card {
+  min-height: 310px;
+}
+
+.chart-card .ajuda {
+  display: block;
+  margin: 0 0 8px;
+}
+
+.chart-wide {
+  grid-column: 1 / -1;
+}
+
+.chart-wrap {
+  position: relative;
+  height: 230px;
+  margin-top: 12px;
+}
+
+.chart-doughnut {
+  height: 250px;
+}
+
 /* Cartões Material com elevação discreta */
 .card {
   min-width: 0;

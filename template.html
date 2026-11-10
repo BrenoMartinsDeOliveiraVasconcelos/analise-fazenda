@@ -20,6 +20,38 @@
     <div class="grid k4" id="kpis"></div>
   </section>
 
+  <section class="resumo-visual">
+    <h2>Resumo geral</h2>
+    <p class="ajuda">Visão geral das irregularidades no período selecionado.</p>
+    <div class="grid g2">
+      <div class="card chart-card">
+        <b>Tipos de irregularidade</b>
+        <span class="ajuda">Quantidade de cargas em cada problema.</span>
+        <div class="chart-wrap chart-doughnut"><canvas id="gTipos"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <b>Prejuízo por tipo de problema</b>
+        <span class="ajuda">Quanto cada irregularidade representa em dinheiro.</span>
+        <div class="chart-wrap"><canvas id="gImpacto"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <b>Prejuízo ao longo dos meses</b>
+        <span class="ajuda">Comparação mensal das perdas identificadas.</span>
+        <div class="chart-wrap"><canvas id="gMes"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <b>Litros comprometidos</b>
+        <span class="ajuda">Volume descartado ou que perdeu o prêmio orgânico.</span>
+        <div class="chart-wrap"><canvas id="gLitros"></canvas></div>
+      </div>
+      <div class="card chart-card chart-wide">
+        <b>Caminhões com mais ocorrências</b>
+        <span class="ajuda">Os caminhões aparecem em ordem de quantidade de cargas irregulares.</span>
+        <div class="chart-wrap"><canvas id="gCaminhoes"></canvas></div>
+      </div>
+    </div>
+  </section>
+
   <section>
     <h2>Cargas irregulares</h2>
     <p class="ajuda">Cada linha possui uma carga que houveram misturas proibidas.</p>
@@ -41,8 +73,6 @@
       <div class="card"><b>Primeira viagem × segunda viagem</b>
         <div class="destaque" id="viagemTexto" style="margin-top:10px"></div>
         <canvas id="gViagem"></canvas></div>
-      <div class="card" style="grid-column:1/-1"><b>Prejuízo por mês (R$)</b>
-        <canvas id="gMes"></canvas></div>
     </div>
   </section>
 
@@ -119,7 +149,7 @@
   const nomeMes = () => mes === "total" ? "todo o período" : D.meses.find(m => m.num === +mes).nome;
   const pagCargas = new Paginador(15, "pagInfo", "ant", "prox", () => desenharExplorador());
   const pagFaz = new Paginador(15, "pagF", "antF", "proxF", () => desenharFazendas());
-  let gViagem, gMes;
+  let gViagem, gTipos, gImpacto, gMes, gLitros, gCaminhoes;
   
   /* Seção de indicadores */
   function desenharKpis(){
@@ -162,6 +192,37 @@
       options:{plugins:{legend:{display:false}}, scales:{y:{beginAtZero:true, ticks:{callback:x=>x+"%"}}}}});
   }
   
+  const opcoesGrafico = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {legend: {labels: {usePointStyle: true, padding: 16}}}
+  };
+
+  function desenharResumoVisual(){
+    const k = D.visoes[mes].kpi;
+    const rotulos = [ROT.descarte_total[0], ROT.perda_premio[0]];
+    const cores = ["#ef5b6b", "#f2b24a"];
+    const destruir = grafico => grafico && grafico.destroy();
+
+    destruir(gTipos);
+    gTipos = new Chart($("gTipos"), {type:"doughnut",
+      data:{labels:rotulos, datasets:[{data:[k.esp, k.premio], backgroundColor:cores, borderColor:"#fff", borderWidth:4}]},
+      options:{...opcoesGrafico, cutout:"64%", plugins:{...opcoesGrafico.plugins, tooltip:{callbacks:{label:c=>`${c.label}: ${num(c.raw)} cargas`}}}}});
+
+    destruir(gImpacto);
+    gImpacto = new Chart($("gImpacto"), {type:"bar",
+      data:{labels:rotulos, datasets:[{label:"Prejuízo", data:[k.prej_esp, k.prej_premio], backgroundColor:cores, borderRadius:7, maxBarThickness:70}]},
+      options:{...opcoesGrafico, indexAxis:"y", plugins:{...opcoesGrafico.plugins, legend:{display:false}, tooltip:{callbacks:{label:c=>brl(c.raw)}}}, scales:{x:{beginAtZero:true, ticks:{callback:x=>"R$ "+num(x)}}, y:{grid:{display:false}}}}});
+
+    destruir(gLitros);
+    gLitros = new Chart($("gLitros"), {type:"bar",
+      data:{labels:rotulos, datasets:[{label:"Litros comprometidos", data:[k.litros_esp, k.litros_premio], backgroundColor:cores, borderRadius:7, maxBarThickness:70}]},
+      options:{...opcoesGrafico, indexAxis:"y", plugins:{...opcoesGrafico.plugins, legend:{display:false}, tooltip:{callbacks:{label:c=>num(c.raw)+" L"}}}, scales:{x:{beginAtZero:true, ticks:{callback:x=>num(x)+" L"}}, y:{grid:{display:false}}}}});
+
+    desenharGraficoMeses();
+    desenharGraficoCaminhoes();
+  }
+
   function desenharGraficoMeses(){
     gMes && gMes.destroy();
     const ms = D.meses.map(m => D.visoes[m.num].kpi);
@@ -174,6 +235,14 @@
   }
   
   /* Seção de consulta */
+  function desenharGraficoCaminhoes(){
+    const ranking = D.visoes[mes].caminhoes.slice(0, 8);
+    gCaminhoes && gCaminhoes.destroy();
+    gCaminhoes = new Chart($("gCaminhoes"), {type:"bar",
+      data:{labels:ranking.map(c=>c.cam), datasets:[{label:"Cargas irregulares", data:ranking.map(c=>c.erros), backgroundColor:"#315cba", borderRadius:7, maxBarThickness:42}]},
+      options:{...opcoesGrafico, plugins:{...opcoesGrafico.plugins, legend:{display:false}}, scales:{y:{beginAtZero:true, ticks:{precision:0}}, x:{grid:{display:false}}}}});
+  }
+
   function desenharExplorador(){
     const q = $("buscaCarga").value.toLowerCase().trim(), so = $("soIrregular").checked;
     const lista = cargasDoMes().filter(c => (!so || c.viol) &&
@@ -209,7 +278,7 @@
   /* Seletor de mês */
   function atualizar(){
     pagCargas.pag = 0;
-    desenharKpis(); desenharIrregulares(); desenharReincidencia(); desenharExplorador();
+    desenharKpis(); desenharResumoVisual(); desenharIrregulares(); desenharReincidencia(); desenharExplorador();
   }
   $("mes").innerHTML = `<option value="total">Total (Mar–Jun)</option>` + D.meses.map(m => `<option value="${m.num}">${m.nome}</option>`).join("");
   $("mes").onchange = e => { mes = e.target.value; atualizar(); };
@@ -217,7 +286,7 @@
   $("soIrregular").onchange = () => { pagCargas.pag = 0; desenharExplorador(); };
   $("buscaFaz").oninput = () => { pagFaz.pag = 0; desenharFazendas(); };
   
-  atualizar(); desenharGraficoMeses(); desenharCombos(); desenharFazendas(); desenharLimpeza();
+  atualizar(); desenharCombos(); desenharFazendas(); desenharLimpeza();
 </script>
 </body>
 </html>

@@ -207,6 +207,8 @@ class PayloadBuilder:
                     "esp": int((err["violacao"] == "descarte_total").sum()),
                     "premio": int((err["violacao"] == "perda_premio").sum()),
                     "litros": float(err["litros_comprometidos"].sum()),
+                    "litros_esp": float(err.loc[err["violacao"] == "descarte_total", "litros_comprometidos"].sum()),
+                    "litros_premio": float(err.loc[err["violacao"] == "perda_premio", "litros_comprometidos"].sum()),
                     "prejuizo": float(err["prejuizo"].sum()),
                     "prej_esp": float(err.loc[err["violacao"] == "descarte_total", "prejuizo"].sum()),
                     "prej_premio": float(err.loc[err["violacao"] == "perda_premio", "prejuizo"].sum())},
